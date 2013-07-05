@@ -8,6 +8,8 @@ More specifically, I'll only do the ones that I am interested in. I'm not intere
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
+Note: I have't ready any problem while creating this repo. I'll read them as I start solving the problems. Hence, there is no prior curation or filtering. Keeps things spicy. :)
+
 ==============================
 
 Numbers
@@ -19,7 +21,7 @@ Numbers
 
 [**Prime Factorization**](https://github.com/thekarangoel/Projects/blob/master/Numbers/prime.py) – Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-**Next Prime Number** – Have the program find prime numbers until the user chooses to stop asking for the next one.
+[**Next Prime Number**](https://github.com/thekarangoel/Projects/blob/master/Numbers/next_prime.py) – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 **Find Cost of Tile to Cover W x H Floor** – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
