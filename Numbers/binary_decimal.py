@@ -21,7 +21,14 @@ def decimal_to_binary(decimal):
     """
     Converts a decimal number into a binary number.
     """
-
+    binary = ""
+    remainders = []
+    while decimal > 0:
+        remainders.append(str(decimal % 2))
+        decimal /= 2
+    remainders.reverse()
+    binary = "".join(remainders)
+    return binary
 
 if __name__ == '__main__':
     print """
@@ -37,7 +44,7 @@ if __name__ == '__main__':
               (binary, binary_to_decimal(binary))
     elif choice == 2:
         decimal = input("Decimal to convert: ")
-        print "The decimal number %d in binary is %d" % \
+        print "The decimal number %d in binary is %s" % \
               (decimal, decimal_to_binary(decimal))
     else:
         print "Invalid choice"
