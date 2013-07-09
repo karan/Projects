@@ -16,7 +16,7 @@ Some details:
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
-**Note**: I have't ready any problem while creating this repo. I'll read them as I start solving the problems. Hence, there is no prior curation or filtering. Keeps things spicy. :)
+**Note**: I have't read any problem while creating this repo. I'll read them as I start solving the problems. Hence, there is no prior filtering of problems. Keeps things spicy. :)
 
 ==============================
 
