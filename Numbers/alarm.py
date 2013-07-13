@@ -1,10 +1,15 @@
 """
 Alarm Clock - A simple clock where it plays a sound after
 X number of minutes/seconds or at a particular time.
+
+Dependencies:
+pyglet
+    pip install pyglet
 """
 
 import time
 import winsound
+import pyglet
 
 if __name__ == '__main__':
     hh = input('What hour do you want to wake up (0-23)? ')
@@ -17,6 +22,8 @@ if __name__ == '__main__':
         hour = cur_time[3] # find the hour
         minute = cur_time[4] # and the minute
         if hour == hh and minute == mm:
-            winsound.Beep(10000, 100) # play the beep
+            song = pyglet.media.load('bin/sound.wav')
+            song.play() # play the sound
+            pyglet.app.run()
             not_alarmed = 0 # stop the loop
 
