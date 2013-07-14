@@ -5,6 +5,12 @@ Trying to complete all projects from [Martyr2’s Mega Project List](http://www.
 
 **Note**: If you fork this repo to solve these projects in any language of your choice, please remove all my code, and start from scratch; you'll benefit a lot. Do ***not*** send pull requests.
 
+### Addendum
+
+**July 14, 2013:** This repo is in the top 5 on GitHub.
+
+![made it to top 5](https://github.com/thekarangoel/Projects/raw/master/top5.png)
+
 Some details:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
