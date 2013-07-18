@@ -55,7 +55,7 @@ Numbers
 
 **Distance Between Two Cities** – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
-**Credit Card Validator** – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+[**Credit Card Validator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/credit_card_validator.py) – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
 **Tax Calculator** – Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
