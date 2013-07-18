@@ -53,7 +53,7 @@ Numbers
 
 [**Alarm Clock**](https://github.com/thekarangoel/Projects/blob/master/Numbers/alarm.py) – A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
-**Distance Between Two Cities** – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
+[**Distance Between Two Cities**](https://github.com/thekarangoel/Projects/blob/master/Numbers/distance.py) – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
 [**Credit Card Validator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/credit_card_validator.py) – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
