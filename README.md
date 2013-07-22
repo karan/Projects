@@ -9,16 +9,16 @@ Trying to complete all projects from [Martyr2’s Mega Project List](http://www.
 
 ===============================
 
-**Note**: If you fork this repo to solve these projects in any language of your choice, please remove all my code, and start from scratch; you'll benefit a lot. Do ***not*** send pull requests.
+**Note**: If you fork this repo to solve these projects in any language of your choice, I suggest you remove all my code, and start from scratch; you'll benefit a lot. In any case, **do not send pull requests for replacing my code**. This is my space to store my code. That said, if you have suggestions for adding or removing problems, feel free to [open an issue](https://github.com/thekarangoel/Projects/issues/new).
 
-Some details:
+Some details about this repo:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
 * I have no interest in making games, so I'm excluding those from the list below.
 * I'm not interested in networking, so I *might* skip all (or some) of them.
 * The projects will not be made in the order posted.
 * I may not be able to complete all of them. 
-* My method of solving them may not be the best.
+* My method of solving them may not be the best. If you do not like my algorithm(s), please add a comment for the file/commit or open an issue, and I'll try to improve.
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
