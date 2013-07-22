@@ -5,10 +5,14 @@
 import math
 
 def is_a_prime(x):
-    for i in range(2, x):
-        if x % i == 0:
-            return False
-    return True
+    w = math.sqrt(x)
+    if x%2 == 0:
+        return False
+    else:
+        for i in range(3, w, 2):
+            if x % i == 0:
+                return False
+        return True
 
 # standard boilerplate
 if __name__ == '__main__':
