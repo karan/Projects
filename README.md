@@ -1,11 +1,13 @@
-Martyr2’s Mega Project List
+Karan's Mega Project List
 ========
 
 Trying to complete all projects from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 
-#### Addendum -- July 14, 2013: This repo is in the top 5 on GitHub. (And again on [July 22, 2013](https://github.com/thekarangoel/Projects/blob/master/top5-2013-07-22%2013_10_30.png))
+### [RECOGNITION](https://github.com/thekarangoel/Projects/tree/master/RECOGNITION)
 
-![made it to top 5](https://github.com/thekarangoel/Projects/raw/master/top5.png)
+.This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png). (And again on [July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png), and again on [July 23, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-23.png).) And on [weekly](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-weekly-2013-07-22.png) [list](https://github.com/thekarangoel/Projects/blob/master/RECOGNITION/top5-weekly-2013-07-23.png) during the week of July 2013.
+
+![July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png)
 
 ===============================
 
