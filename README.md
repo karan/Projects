@@ -9,9 +9,9 @@ This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/the
 
 ===============================
 
-#### [CONTRIBUTING] (https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+### [CONTRIBUTING] (https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
-See whays of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo.
+See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
 
 ================================
 
