@@ -1,14 +1,6 @@
 Mega Project List
 ========
 
-**Note**: If you fork this repo to solve these projects in any language of your choice, I suggest you remove all my code, and start from scratch; you'll benefit a lot. In any case, **do not send pull requests for replacing my code**. This is my space to store my code. That said, if you have suggestions for adding or removing problems, feel free to [open an issue](https://github.com/thekarangoel/Projects/issues/new).
-
-I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
-
-To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/thekarangoel/Projects/blob/master/README-scratch.md) to *README.md*.
-
-===============================
-
 Numbers
 ---------
 
