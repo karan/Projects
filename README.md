@@ -9,7 +9,11 @@ This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/the
 
 ===============================
 
-**Note**: If you fork this repo to solve these projects in any language of your choice, I suggest you remove all my code, and start from scratch; you'll benefit a lot. In any case, **do not send pull requests for replacing my code**. This is my space to store my code. That said, if you have suggestions for adding or removing problems, feel free to [open an issue](https://github.com/thekarangoel/Projects/issues/new).
+#### [CONTRIBUTING] (https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+
+See whays of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo.
+
+================================
 
 Some details about this repo:
 
