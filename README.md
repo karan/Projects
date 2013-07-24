@@ -74,7 +74,7 @@ Text
 
 [**Check if Palindrome**](https://github.com/thekarangoel/Projects/blob/master/Text/palindrome.py) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
-**Count Words in a String** - Counts the number of individual words in a string and display the top 5/10 most used words.
+[**Count Words in a String**](https://github.com/thekarangoel/Projects/blob/master/Text/count_words.py) - Counts the number of individual words in a string and display the top 5/10 most used words.
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
