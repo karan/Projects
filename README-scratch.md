@@ -1,22 +1,13 @@
-Martyr2’s Mega Project List
+Mega Project List
 ========
 
-Trying to complete all projects from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
-
-**Note**: If you fork this repo to solve these projects in any language of your choice, please remove all my code, and start from scratch; you'll benefit a lot. Do ***not*** send pull requests.
-
-Some details:
-
-* I will use Python to solve these. Why? Because I want to learn the language quickly.
-* I have no interest in making games, so I'm excluding those from the list below.
-* I'm not interested in networking, so I *might* skip all (or some) of them.
-* The projects will not be made in the order posted.
-* I may not be able to complete all of them. 
-* My method of solving them may not be the best.
+**Note**: If you fork this repo to solve these projects in any language of your choice, I suggest you remove all my code, and start from scratch; you'll benefit a lot. In any case, **do not send pull requests for replacing my code**. This is my space to store my code. That said, if you have suggestions for adding or removing problems, feel free to [open an issue](https://github.com/thekarangoel/Projects/issues/new).
 
 I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
 
-==============================
+To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/thekarangoel/Projects/blob/master/README-scratch.md) to *README.md*.
+
+===============================
 
 Numbers
 ---------
@@ -304,3 +295,10 @@ Graphics and Multimedia
 **Watermarking Application** – Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture.
 
 **Turtle Graphics** – This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. For added complexity, allow the program to read in the list of commands from a file. Do a search online for “Turtle Graphics” for more information.
+
+=========================
+
+Sources
+=======
+
+[Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
