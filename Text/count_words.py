@@ -22,6 +22,5 @@ if __name__ == '__main__':
                            reverse=True)
 
     # print top 5 words
-    for (i, (word, count)) in enumerate(sorted_counts):
-        if i < 5:
+    for (word,count) in sorted_counts[:5]: # thanks @jrwren for this!
             print (word, count)
