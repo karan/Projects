@@ -3,13 +3,13 @@ Mega Project List
 
 #### [RECOGNITION](https://github.com/thekarangoel/Projects/tree/master/RECOGNITION)
 
-This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png). (And again on [July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png), and again on [July 23, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-23.png).) And on [weekly](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-weekly-2013-07-22.png) [list](https://github.com/thekarangoel/Projects/blob/master/RECOGNITION/top5-weekly-2013-07-23.png) during the week of July 2013.
+Ever since this repo was created, it has been in the top list on GH. Be it the daily or weekly list! This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png). (And again on [July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png), and again on [July 23, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-23.png).) And on [weekly](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-weekly-2013-07-22.png) [list](https://github.com/thekarangoel/Projects/blob/master/RECOGNITION/top5-weekly-2013-07-23.png) during the week of July 2013. In the last week of July, *Projects* was in the monthly top list on GH.
 
-![July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png)
+![July 25, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-monthly-2013-07-25.png)
 
 ===============================
 
-### [CONTRIBUTING] (https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+### [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
 See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
 
@@ -63,7 +63,7 @@ Numbers
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
-**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+[**Factorial Finder**](https://github.com/thekarangoel/Projects/blob/master/Numbers/factorial.py) - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
