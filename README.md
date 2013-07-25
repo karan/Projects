@@ -78,75 +78,49 @@ Text
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
-**RSS Feed Creator** - A program which can read in text from other sources and put it in RSS or Atom news format for syndication.
+**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
 
-**Post it Notes Program** - A program where you can add text reminders and post them. You can have the program also add popup reminders.
+**Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
 
-**Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked and the program can show green up and red down arrows to show which direction the stock value has moved.
+**Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
 
-**Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box.
-
-**News Ticker and Game Scores** - A program which sits on your desktop and aggregates news and game scores from various sources on the net. It then scrolls them across the screen on regular intervals.
+**Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
 
 **Fortune Teller (Horoscope)** - A program that checks your horoscope on various astrology sites and puts them together for you each day.
 
 **Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
 
-**Random Gift Suggestions** - Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one and perhaps places you can get it.
+**Random Gift Suggestions** - Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one. *Optional: Suggest places you can get it (link to Amazon page?).*
 
-**Text to HTML Generator** - Converts text files into web HTML files and stylizes them. Great for making online documentation of standard text documentation.
+**Markdown to HTML Converter** - Converts Markdown formatted text into HTML files. Implement basic tags like `p`, `strong`, `em` etc. *Optional: Implement all tags from [Markdown Syntax Docs](daringfireball.net/projects/markdown/syntax).* 
 
-**CD Key Generator** - Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
-
-**Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular exp****ression against the source text and return any matches or flag errors in the regular exp****ression.
+**Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
 Networking
 ---------
 
 **FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
 
-**Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. There are various clocks across the world. Do a search for a list of them.
-
-**Chat Application (IRC or MSN Style)** - Create a chat application that can create simple chat rooms like on Internet Relay Chat (IRC) or a more direct chatting style like MSN. For added complexity, create your own protocol to facilitate this chatting.
-
-**Fetch Current Weather** - Get the current weather for a given zip/postal code.
-
-**P2P File Sharing App** - Create a program like LimeWire, FrostWire, Bearshare, or a torrent style application.
+**Bandwidth Monitor** - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
 
 **Port Scanner** - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
 
-**Mail Checker (POP3 / IMAP)** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email on several accounts at a given interval.
+**Mail Checker (POP3 / IMAP)** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email at a given interval.
 
-**Packet Sniffer** - A utility program that will read packets coming in and out of the machine along with related information like destination and payload size.
-
-**Country from IP Lookup** - Enter an IP address and find the country that IP is registered in.
+**Country from IP Lookup** - Enter an IP address and find the country that IP is registered in. *Optional: Find the Ip automatically.*
 
 **Whois Search Tool** - Enter an IP or host address and have it look it up through whois and return the results to you.
 
-**Zip / Postal Code Lookup** - Enter a zip or postal code and have it return which city/cities that are in that zip code.
-
-**Remote Login** - Create a remote desktop style application which can see and control the remote computer (given you have permissions). It may require the use of your own private network and a second computer to test with.
-
 **Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
-
-**Small Web Server** - A simple web server that can serve HTML files that contain Javascript and other forms of non-code executing code. Added complexity would be to try and implement streaming video, create a server-side language, or serve up other stream types.
-
-**Web Bot** - An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.
 
 Classes
 ---------
 
-**Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
-
-**Movie Store** - Manage video rentals and controls when videos are checked out, due to return, overdue fees and for added complexity create a summary of those accounts which are overdue for contact.
+**Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
 
 **Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
 
-**Student Grade Book Application** - Keep track of students (with a student class that has their name, average, and scores) in a class and their grades. Assign their scores on tests and assignments to the students and figure out their average and grade for the class. For added complexity put the students on a bell curve.
-
-**Bank Account Manager** - Create a class called “Account” which will be an abstract class for three other classes called “CheckingAccount”, “SavingsAccount” and “BusinessAccount”. Manage credits and debits from these accounts through an ATM style program.
-
-**Library Catalog** - Create a book class with a title, page count, ISBN and whether or not it is checked out or not. Manage a collection of various books and allow the user to check out books or return books. For added complexity generate a report of those books overdue and any fees. Also allow users to put books on reserve.
+**Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
 
 **Patient / Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
 
@@ -154,67 +128,39 @@ Classes
 
 **Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
 
-**Class to Handle Large Numbers** - We know that the basic data types like integer, long, double, and floats only go so far. Create a class that can manage extremely large numbers like those used in space exploration.
-
-**Chart Making Class / API** - Create a class, or a set of classes, that generates bar charts, pie charts, histograms, and scatter plot charts. For added complexity, make this a service where people can connect to a web server, supply information and it returns a chart image for them in gif or jpg format.
-
-**Shape Area and Perimeter Classes** - Create an abstract class called “Shape” and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
-
-**Matrix Class** - A class to manage matrices. Add, subtract and multiple matrices.
+**Shape Area and Perimeter Classes** - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
 
 **Flower Shop Ordering To Go** - Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
 
-**Vending Machine** - Create an application which takes money and dispenses various types of candy or other item. The user enters a number and letter sequence, like D9, and have it return an instance of “Item” which of the proper type. Example when they press D9 it will return a type of candy bar which is an instance of Mr. GoodBar.
-
-**Josephus Problem** - Create a program which links together various node objects and then every Nth object is removed until you have one object left. This last object is the sole survivor. Look it up on Google under “Josephus Algorithm”
-
-**Family Tree Creator** - Create a class called “Person” which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
+**Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
 Threading
 ---------
 
 **Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
-**Download Manager** - Allow your program to download various files and each one is downloading in the background on a separate thread. The main thread will keep track of the other thread’s progress and notify the user when downloads are completed.
-
-**Chat Application (remoting style)** - Create a chat application which allows you to connect directly to another computer by their IP through the use of remoting and allow your “server” application handle multiple incoming connections.
-
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
 Web
 ---------
 
-**WYSIWG (What you see is what you get) Editor** - Create an editor online which allows people to move around elements, create tables, write text, set colors etc for web pages without having to know HTML. Think Dreamweaver or FrontPage but for online sites. If you need an example check out the DIC page used to create a post.
+**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 **Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
 
-**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. For added complexity, organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.
+**Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
 
-**File Downloader** - An application which can download various objects on a page including video streams or all files on a page. Great for pages with a lot of download links.
+**Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
 
-**Telnet Application** - Create an application which can telnet into servers across the internet and run basic commands.
-
-**Online White Board** - Create an application which allows you and friends to collaborate on a white board online. Draw pictures, write notes and use various colors to flesh out ideas for projects. For added complexity try building in picture tubes.
-
-**Bandwidth Monitor** - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
-
-**Bookmark Collector and Sorter** - An application that you can put online for people to upload bookmarks to, have it sort them, remove duplicates and export the entire list as a Firefox/IE/Safari bookmark file. For added complexity see if you can group the bookmark items into various folders.
-
-**Password Safe** - A program which keeps track of passwords for sites or applications and encrypts them with a key so that no one can read them.
-
-**Media Player Widget for iGoogle** - Create an iGoogle gadget which can play various song lists from your computer as well as share one song daily. Perhaps let people look up which songs you have listened to lately.
-
-**Text Based Game Like Utopia** - Create a simple text based RPG like Utopia where you can create a civilization, gather resources, forge alliances, cast spells and more on a turn based system. See if you can dominate the kingdom.
+**Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
 
 **Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
 
-**E-Card Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Can use flash or not. Use a picture library and perhaps insightful mottos or quotes.
+**E-Card Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
 
-**Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small and allow for the addition of modules/addons later.
+**Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small. *Optional: Allow for the addition of modules/addons.*
 
-**Template Maker** - Make a site or application which allows the user to enter in various color codes, elements, dimensions and constructs a template file for a particular application like PHPBB, Invision Board, MySpace, Bebo, etc.
-
-**CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms. If you use PHP, take a look at the image functions of GD.
+**CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
 Files
 ---------
