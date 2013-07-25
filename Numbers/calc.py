@@ -1,6 +1,6 @@
 # -*- coding: cp1252 -*-
 """
-Calculator – A simple calculator to do basic operators.
+Calculator - A simple calculator to do basic operators.
 """
 
 if __name__ == '__main__':
