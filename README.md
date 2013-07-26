@@ -15,6 +15,12 @@ See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/
 
 ================================
 
+### [Solutions](https://gist.github.com/thekarangoel/6088143)
+
+You can find implementations of these projects in many other languages by other users in this [gist](https://gist.github.com/thekarangoel/6088143).
+
+================================
+
 Some details about this repo:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
