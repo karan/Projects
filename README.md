@@ -11,7 +11,7 @@ Ever since this repo was created, it has been in the top list on GH. Be it the d
 
 ### [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
+See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions (will be published in this [gist](https://gist.github.com/thekarangoel/6088143)) to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
 
 ================================
 

@@ -7,20 +7,13 @@ Please **do not send pull requests for replacing my code**. If you'd like to con
 
 - Solve the problem, and keep it in your repo. DO NOT send merge request yet.
 
-- Find the problem in this [README](https://github.com/thekarangoel/Projects/blob/master/README.md) file.
+- [Open an issue](https://github.com/thekarangoel/Projects/issues/new) with the following details - problem you solved, language used, and a link to the solution.
 
-- Edit the file in this format (notice the double square brackets):
-
-    \**This is a problem** - And here goes it's description. \[[octocat]]\(link-to-octocats-solution) \[[your_username]]\(link-to-your-solution)
+- The link to your solution will be present in this [gist](https://gist.github.com/thekarangoel/6088143) like so:
     
-    This results in something like this:
-    
-    **This is a problem** - And here goes it's description. [[octocat]](link-to-octocats-solution) [[your_username]](link-to-your-solution)
+    **This is a problem** - And here goes it's description. [[octocat (Python)]](link-to-octocats-solution) [[your_username(C++)]](link-to-your-solution)
 
-- Please respect other people and do not delete or move anyone else's link. Place your solution at the end of the list of solutions.
-
-- Save/Commit the README.md file.
-- Send a pull request for this commit ONLY!
+- That's it. As soon as I get online I'll add the link to the gist! You do not need to do anything else.
 
 =====================================
 
