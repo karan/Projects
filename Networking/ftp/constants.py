@@ -5,6 +5,7 @@ messages={
 
 
 command_desc={
-	'exit':'Closes the FTP Connection and quits'
-	'help':'Shows this Menu'
+	'exit':'Closes the FTP Connection and quits',
+	'help':'Shows this Menu',
+	'search':'Search for a file or folder'
 }

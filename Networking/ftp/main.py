@@ -36,8 +36,8 @@ def main(argv):
 			elif opt == '-P':
 				password = arg
 
-		client = CLIENT(hostname,port,username,password)
-		sh = Shell(client)
+		
+		sh = Shell(CLIENT(hostname,port,username,password))
 
 if(__name__=='__main__'):
 	main(sys.argv[1:])

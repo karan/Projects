@@ -12,5 +12,7 @@ class CLIENT:
 
 	def close(self):
 		self.__ftp.quit()
-		sys.exit()
+
+	def getCon(self):
+		return self.__ftp
 
