@@ -11,13 +11,13 @@ Ever since this repo was created, it has been in the top list on GH. Be it the d
 
 ### [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions (will be published in this [repo]([solutions](https://github.com/thekarangoel/Projects-Solutions))) to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
+See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
 
 ================================
 
-### [Solutions](https://gist.github.com/thekarangoel/6088143)
+### [Solutions](https://github.com/thekarangoel/Projects-Solutions)
 
-You can find implementations of these projects in many other languages by other users in this [gist](https://gist.github.com/thekarangoel/6088143).
+You can find implementations of these projects in many other languages by other users in this [repo](https://github.com/thekarangoel/Projects-Solutions).
 
 ================================
 
