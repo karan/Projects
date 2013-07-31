@@ -21,7 +21,7 @@ R = 6373 # km
 
 city1 = raw_input('Enter city 1: ')
 city2 = raw_input('Enter city 2: ')
-unit = raw_input('Enter unit of distance (K = KM, M = MI): ').lower()
+unit = raw_input('Enter unit of distance (Enter "K" for KM or "M" for MI): ').lower()
 
 if unit in 'km':
 
