@@ -17,7 +17,7 @@ if __name__ == '__main__':
     factors = []
 
     for i in range(2, n + 1):
-        if n % i == 0:
+        while n % i == 0:
             if is_a_prime(i):
                 factors.append(i)
                 n /= i
