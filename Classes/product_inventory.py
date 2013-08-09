@@ -17,6 +17,17 @@ class Product:
         self.pid = pid
         self.qty = qty
 
+    def update_qty(self, qty, method='add'):
+        """
+        Updates the quantity of produts. By default, adds the
+        passed quantity. Pass method as 'subtract' to subtract
+        the quantity.
+        """
+        if method == 'add':
+            self.qty += qty
+        elif method == 'subtract':
+            self.qty = max(0, self.qty - qty)
+
     def print_product(self):
         """
         Prints a single product.
@@ -58,4 +69,10 @@ if __name__ == '__main__':
     i.add(p1)
     i.add(p2)
     i.add(p3)
+    i.print_inventory()
+
+    p1.update_qty(10)
+    i.print_inventory()
+    
+    p1.update_qty(10, method='subtract')
     i.print_inventory()
