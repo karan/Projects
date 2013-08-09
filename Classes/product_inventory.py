@@ -23,5 +23,39 @@ class Product:
         """
         print '%d\t%s\t%.02f each' % (self.pid, self.qty, self.price)
 
-p = Product(1.4, 123, 5)
-p.print_product()
+class Inventory:
+
+    def __init__(self):
+        """
+        Initializes the class instance.
+        """
+        self.products = [] # list to hold all products
+
+    def add(self, product):
+        """
+        Adds a passed Product to the list of products.
+        """
+        self.products.append(product)
+
+    def print_inventory(self):
+        """
+        Prints the current inventory, and the total value
+        of products.
+        """
+        value = 0
+        for product in self.products:
+            print '%d\t%s\t%.02f each' % (product.pid, product.qty, product.price)
+            value += (product.price * product.qty)
+        print '\nTotal value: %.02f' % value
+
+if __name__ == '__main__':
+    p1 = Product(1.4, 123, 5)
+    p2 = Product(1, 3432, 100)
+    p3 = Product(100.4, 2342, 99)
+
+
+    i = Inventory()
+    i.add(p1)
+    i.add(p2)
+    i.add(p3)
+    i.print_inventory()
