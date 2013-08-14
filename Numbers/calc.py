@@ -13,12 +13,5 @@ if __name__ == '__main__':
         if op not in '+-/*':
             print "Invalid operator"
         else:
-            if op == '+':
-                res = num1 + num2
-            elif op == '-':
-                res = num1 - num2
-            elif op == '/':
-                res = num1 / num2
-            elif op == '*':
-                res = num1 * num2
-            print "%d %s %d = %d" % (num1, op, num2, res)
+            print "%d %s %d = %d" % \
+                  (num1, op, num2, eval(str(num1) + op + str(num2)))
