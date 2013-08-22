@@ -10,9 +10,16 @@ add 1.
 class Collatz:
 
     def __init__(self, number):
-        if number <= 1:
-            raise Exception('ValueError', 'Number must be greater than 1')
-        self.number = number
+        try:
+            if number <= 1:
+                raise Exception('ValueError', 'Number must be greater than 1')
+            else:
+                self.number = number
+        except Exception, e:
+            self.number = 5
+            print '*' * 3 + 'Incorrect value entered.' +\
+                ' Default value of %d assumed' % self.number +\
+                '*' * 3
         self.steps = 0
 
     def calculate_steps(self):
