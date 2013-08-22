@@ -10,6 +10,8 @@ add 1.
 class Collatz:
 
     def __init__(self, number):
+        if number <= 1:
+            raise Exception('ValueError', 'Number must be greater than 1')
         self.number = number
         self.steps = 0
 
@@ -39,5 +41,9 @@ if __name__ == '__main__':
     number2.get_steps()
 
     number3 = Collatz(6)
+    number3.calculate_steps()
+    number3.get_steps()
+
+    number3 = Collatz(-1)
     number3.calculate_steps()
     number3.get_steps()
