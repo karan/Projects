@@ -23,6 +23,12 @@ You can find implementations of these projects in many other languages by other 
 
 ================================
 
+### [Donate](https://www.gittip.com/Karan%20Goel/)
+
+If you love and use *Projects*, please consider [donating via gittip](https://www.gittip.com/Karan%20Goel/). Any support is appreciated!
+
+================================
+
 Some details about this repo:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
