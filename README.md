@@ -114,7 +114,7 @@ Text
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
-**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
+[**RSS Feed Creator**](https://github.com/thekarangoel/Projects/blob/master/Text/rss.py) - Given a link to RSS/Atom Feed, get all posts and display them.
 
 **Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
 
