@@ -23,6 +23,12 @@ You can find implementations of these projects in many other languages by other 
 
 ================================
 
+### [Donate](https://www.gittip.com/Karan%20Goel/)
+
+If you love and use *Projects*, please consider [donating via gittip](https://www.gittip.com/Karan%20Goel/). Any support is appreciated!
+
+================================
+
 Some details about this repo:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
@@ -59,7 +65,7 @@ Numbers
 
 [**Calculator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/calc.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+[**Unit Converter (temp, currency, volume, mass and more)**](https://github.com/thekarangoel/Projects/blob/master/Numbers/unit.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 [**Alarm Clock**](https://github.com/thekarangoel/Projects/blob/master/Numbers/alarm.py) - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
@@ -80,7 +86,13 @@ Numbers
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+[**Collatz Conjecture**](https://github.com/thekarangoel/Projects/blob/master/Classic%20Algorithms/collatz.py) - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+
+**Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
+
+**Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
+
+**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
 Graphs
 ---------
@@ -108,7 +120,7 @@ Text
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
-**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
+[**RSS Feed Creator**](https://github.com/thekarangoel/Projects/blob/master/Text/rss.py) - Given a link to RSS/Atom Feed, get all posts and display them.
 
 **Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
 
@@ -180,7 +192,7 @@ Web
 
 **Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
 
-**Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
+[**Get Atomic Time from Internet Clock**](https://github.com/thekarangoel/Projects/blob/master/Web/time.py) - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
 
 **Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
 
