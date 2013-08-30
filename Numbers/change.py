@@ -37,7 +37,3 @@ if __name__ == '__main__':
     print "Give the following change to the customer:"
     print "Quarters: %d\tDimes: %d\tNickels: %d\tPennies: %d" \
           % (q, d, n, p)
-
-    # DEBUG
-    # print "Total change per the number of coins is %.2f" % \
-    #       ((q * .25) + (d * .10) + (n * 0.05) + (p * 0.01))

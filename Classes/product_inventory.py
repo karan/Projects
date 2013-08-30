@@ -55,7 +55,9 @@ class Inventory:
         """
         value = 0
         for product in self.products:
-            print '%d\t%s\t%.02f each' % (product.pid, product.qty, product.price)
+            print '%d\t%s\t%.02f each' % (product.pid,
+                                          product.qty,
+                                          product.price)
             value += (product.price * product.qty)
         print '\nTotal value: %.02f' % value
 
