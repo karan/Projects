@@ -12,10 +12,9 @@ frequency analysis to guess the key, or just try all 25 keys.
 
 class Caesar():
 
-    def __init__(self, key=13):
+    def __init__(self):
         self.LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
         self.translated = ''
-        self.key = key
 
     def __crypt(self, mode):
         for symbol in self.message.upper():
@@ -37,17 +36,19 @@ class Caesar():
 
         return self.translated
 
-    def encrypt(self, message):
+    def encrypt(self, message, key=0):
         self.translated = ''
+        self.key = key
         self.message = message
         return self.__crypt('encrypt')
 
-    def decrypt(self, message):
+    def decrypt(self, message, key=0):
         self.translated = ''
+        self.key = key
         self.message = message
         return self.__crypt('decrypt')
 
 if __name__ == '__main__':
-    cipher = Caesar(key=13)
-    print cipher.encrypt('Secret message.')
-    print cipher.decrypt('FRPERG ZRFFNTR.')
+    cipher = Caesar()
+    print cipher.encrypt(message='Secret message.', key=13)
+    print cipher.decrypt(message='FRPERG ZRFFNTR.', key=13)
