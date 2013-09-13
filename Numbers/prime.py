@@ -2,7 +2,6 @@
 # and find all Prime Factors (if there are any) and
 # display them.
 
-import math
 
 def is_a_prime(x):
     for i in range(2, x):
