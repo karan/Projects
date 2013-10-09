@@ -38,3 +38,4 @@ nosetests.xml
 .idea/
 *.iml
 out/
+target/
