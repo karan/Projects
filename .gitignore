@@ -34,6 +34,8 @@ nosetests.xml
 .project
 .pydevproject
 
-# Komodo
-.komodotools/
-*.komodoproject
+# inteli
+.idea/
+*.iml
+out/
+target/
