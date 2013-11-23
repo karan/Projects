@@ -28,7 +28,7 @@ def decimal_to_binary(decimal):
         decimal /= 2
     remainders.reverse()
     binary = "".join(remainders)
-    return binary
+    return 0 if binary == "" else binary
 
 if __name__ == '__main__':
     print """
