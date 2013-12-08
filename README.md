@@ -73,7 +73,7 @@ Numbers
 
 [**Credit Card Validator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/credit_card_validator.py) - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
-**Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+[**Tax Calculator**](https://github.com/karan/Projects/blob/master/Numbers/tax.py) - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
 [**Factorial Finder**](https://github.com/thekarangoel/Projects/blob/master/Numbers/factorial.py) - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
