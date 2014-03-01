@@ -23,9 +23,15 @@ You can find implementations of these projects in many other languages by other 
 
 ================================
 
-### [Donate](https://www.gittip.com/Karan%20Goel/)
+### Donations
 
-If you love and use *Projects*, please consider [donating via gittip](https://www.gittip.com/Karan%20Goel/). Any support is appreciated!
+If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
+
+**- BTC: [19dLDL4ax7xRmMiGDAbkizh6WA6Yei2zP5](http://i.imgur.com/bAQgKLN.png)**
+
+**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
+
+**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
 
 ================================
 
