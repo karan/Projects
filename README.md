@@ -89,6 +89,8 @@ Numbers
 
 **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
 
+**Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+
 Classic Algorithms
 -----------------
 
@@ -278,6 +280,7 @@ Sources
 
 * [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
 * [Rosetta Code](http://rosettacode.org/)
+* Lots and lots of contributors. Thank you all.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/karan/projects/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
