@@ -12,11 +12,26 @@ vowels = 'aeiou'
 
 pig = 'ay'
 
+consonant = []
+count = 0
+copy = [c for c in word]
+
+for i in range(len(copy) - 1):
+	count = i
+	if copy[i] in vowels:
+		break
+	else:
+		consonant.append(copy[i])
+		
+new = word[count:] + "".join(consonant) + pig
+
+"""
 first = word[0]
 
 if first in vowels:
     new = word + pig
 else:
     new = word[1:] + first + pig
+"""
 
 print new
