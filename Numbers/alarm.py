@@ -39,7 +39,7 @@ if __name__ == '__main__':
         cur_time = list(time.localtime()) # get the time right now
         hour = cur_time[3] # find the current hour
         minute = cur_time[4] # and the current minute
-        hh = (hour + hh_from_now) % 24 # cycle through the clock if hh > 24
+        hh = (hour + hh_from_now+(minute+mm_from_now)/60) % 24 # cycle through the clock if hh > 24
         mm = (minute + mm_from_now) % 60 # cycle through the clock if mm > 60
         play(hh, mm)
     elif choice == 2:
