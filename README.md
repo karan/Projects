@@ -282,6 +282,3 @@ Sources
 * [Rosetta Code](http://rosettacode.org/)
 * Lots and lots of contributors. Thank you all.
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/karan/projects/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
