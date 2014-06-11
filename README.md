@@ -14,12 +14,9 @@ See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/
 
 You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-
 ## Donations
 
 If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
-
-**- BTC: [19dLDL4ax7xRmMiGDAbkizh6WA6Yei2zP5](http://i.imgur.com/bAQgKLN.png)**
 
 **- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
 
