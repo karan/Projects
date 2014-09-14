@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;FindPiToTheNth&apos; to &apos;findPiToTheNthDigit&apos;&#x0A;- Original project: &apos;Solutions&apos;&#x0A;- Original element: &apos;Solutions/src/FindPiToTheNth&apos;&#x0A;- Renamed element: &apos;Solutions/src/findPiToTheNthDigit&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;FindPiToTheNth&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;FindPiToTheNth" name="findPiToTheNthDigit" qualified="false" references="true" stamp="1410711515004" textual="false" version="1.0"/>
+</session>
