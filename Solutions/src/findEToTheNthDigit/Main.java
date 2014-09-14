@@ -1,30 +1,29 @@
-package findPiToTheNthDigit;
+package findEToTheNthDigit;
 
 import java.util.Scanner;
+
 /**
  * Created by jigd on 14/09/14.
  */
 public class Main {
 
 
-	public static void main(String[] args) {
-		String Pi = Double.toString(Math.PI);
-		Scanner keyboard = new Scanner(System.in);
-        int piDigits = 0;
+    public static void main(String[] args){
+        String e = Double.toString(Math.E);
+        Scanner keyboard = new Scanner(System.in);
+        int eDigits = 0;
         boolean tooManyDigits;
         do {
             System.out.println("Enter the desired number of digits for PI from 0 to 15");
-            piDigits = keyboard.nextInt();
-            tooManyDigits = piDigits > Pi.length() - 2;
+            eDigits = keyboard.nextInt();
+            tooManyDigits = eDigits > e.length() - 2;
             if (tooManyDigits){
                 System.out.println("unable to compute that many digits");
             }
         }
         while(tooManyDigits);
-		Pi = Pi.substring(0, piDigits+2);
-		System.out.println("PI = "+Pi);
-	}
+        e = e.substring(0, eDigits+2);
+        System.out.println("e = "+e);
+    }
 
 }
-
-
