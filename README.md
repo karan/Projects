@@ -5,6 +5,10 @@ A list of practical projects that anyone can solve in any programming language (
 
 To get started, simply fork this repo.
 
+More fundemental problems that teach the basics of programming are in concepts.md.
+
+Applications of those fundementals are in applications.md.
+
 ## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
 See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
