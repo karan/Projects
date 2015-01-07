@@ -14,13 +14,15 @@ See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/
 
 You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-## Donations
+## Credits
 
-If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
+This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
 
-**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
+Problems are motivated by the ones shared at:
 
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
+* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
+* [Rosetta Code](http://rosettacode.org/)
+
 
 ================================
 
@@ -256,10 +258,3 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
-
-
-Sources
-=======
-
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
-* [Rosetta Code](http://rosettacode.org/)
