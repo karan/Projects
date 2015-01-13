@@ -1,0 +1,40 @@
+cp .\test_cases\I.1 moosick.in
+Test case 1: 
+2	2
+Correct
+cp .\test_cases\I.2 moosick.in
+Test case 2: 
+3	3
+Correct
+cp .\test_cases\I.3 moosick.in
+Test case 3: 
+19	19
+Correct
+cp .\test_cases\I.4 moosick.in
+Test case 4: 
+26	26
+Correct
+cp .\test_cases\I.5 moosick.in
+Test case 5: 
+70	70
+Correct
+cp .\test_cases\I.6 moosick.in
+Test case 6: 
+14	14
+Correct
+cp .\test_cases\I.7 moosick.in
+Test case 7: 
+51	51
+Correct
+cp .\test_cases\I.8 moosick.in
+Test case 8: 
+0	0
+Correct
+cp .\test_cases\I.9 moosick.in
+Test case 9: 
+452	452
+Correct
+cp .\test_cases\I.10 moosick.in
+Test case 10: 
+19999	19999
+Correct
