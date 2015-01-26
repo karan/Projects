@@ -1,0 +1,19 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  color: #CC033C;
+  font-size: 10vh;
+  padding-top: 2vh;
+}
+
+.date {
+  color: #000;
+  font-size: 25vh;
+}
+
+.info {
+  height: 40vh;
+  text-align: center;
+}
