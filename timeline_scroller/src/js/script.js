@@ -10,7 +10,7 @@ var range = function (start, end) {
 };
              
 var binsearch = function (a, date, start, end) {
-  if (date < a[0][0]) return 0;
+  if (date <= a[0][0]) return 0;
   if (date > a[a.length-1][0]) return a.length-1;
   if (end < start) {
     return start;
@@ -21,7 +21,7 @@ var binsearch = function (a, date, start, end) {
     else if (a[mid][0] < date)
       return binsearch(a, date, mid+1, end);
     else {
-      while (a[mid][0] == date) mid -= 1;
+      while (a[mid][0] == date && mid > 0) mid -= 1;
       return mid+1;
     }
   }
@@ -31,12 +31,15 @@ var info = $('#info');
 var year = $('#date');
 var pause = true;
 var current = -1;
+var edited = false;
 
 var next = function () {
-  current += 1;
-  year.text(String(dates[current][0]));
-  $('#info span').html(dates[current][1]);
-  info.textfill({maxFontPixels: 72});
+  if (current < dates.length - 1) {
+    current += 1;
+    year.text(String(dates[current][0]));
+    $('#info span').html(dates[current][1]);
+    info.textfill({maxFontPixels: 72});
+  }
 };
 
 info.textfill({maxFontPixels: 72});
@@ -57,21 +60,24 @@ $(document).keypress(function (e) {
     } else {
       clearInterval(play);
       console.log("pause");
+      edited = false;
     }
     pause = !pause;
   }
   
   if (pause) {
     if (e.which >= 48 && e.which <= 57) {
-      if (year.html() !== '&nbsp') {
+      if (year.html() !== '&nbsp' && edited) {
         year.text(year.text() + (e.which - 48));
       } else {
         year.text(e.which - 48);
+        edited = true;
       }
     }
     else if (e.which === 13) {
       current = binsearch(dates, year.text(), 0, dates.length-1)-1;
       next();
+      edited = false;
     }
   }
   console.log(e.which);
@@ -86,6 +92,13 @@ $(document).unbind('keydown').bind('keydown', function (event) {
       } else {
         year.html('&nbsp;'); 
       }
+    } else if (event.keyCode === 37) {
+      if (current > 0) {
+        current -= 2;
+        next();
+      }
+    } else if (event.keyCode === 39) {
+      next(); 
     }
 });
 
