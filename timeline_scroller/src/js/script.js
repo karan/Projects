@@ -40,6 +40,7 @@ var next = function () {
     $('#info span').html(dates[current][1]);
     info.textfill({maxFontPixels: 72});
   }
+  $("body").css("background-color", "rgb(" + (200+Math.random()*56|0) + "," + (200+Math.random()*56|0) + "," + (200+Math.random()*56|0) + ")");
 };
 
 info.textfill({maxFontPixels: 72});
@@ -55,7 +56,7 @@ $(window).resize(function () {
 $(document).keypress(function (e) {
   if (e.which === 32) {
     if (pause) {
-      play = setInterval(next, 1000);
+      play = setInterval(next, 1000*60*17/dates.length);
       console.log("play");
     } else {
       clearInterval(play);
