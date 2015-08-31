@@ -179,7 +179,7 @@ After you've established an employee hierarchy, create a Company class that allo
 
 **Patient / Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
 
-**Recipe Creator and Manager** - Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts, main courses or by ingredients like chicken, beef, soups, pies etc.
+**Recipe Creator and Manager** - Create a recipe class with ingredients and put them in a recipe manager program that organizes them into categories like desserts, main courses or by ingredients like chicken, beef, soups, pies etc.
 
 **Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
 
