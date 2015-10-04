@@ -146,6 +146,7 @@ Text
 
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
+**Rubik's Cube Scramble Generator** - Generate a random scramble for a Rubik's cube using the standard turn notation of `R, L, U, F, D, B` and modifiers of `'` (invert) and `2` (double turn). Read [here](http://www.speedcubing.com/moves.html) for examples of notation. *Note: Slice turns `M, E, S` and orientation moves `x, y, z` are not used in scrambles. Also, when making your program, please prevent it from making sequences like `R R2` or `L L'`.*
 
 Networking
 ---------
