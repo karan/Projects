@@ -95,7 +95,9 @@ Classic Algorithms
 
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
-**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
+**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).  
+
+**Backtracking Algorithms** - Implement a Sudoku Solver based on backtracking algorithm.
 
 
 Graph
@@ -219,6 +221,9 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
+**MyCalender** - Implement a simple calender where you and your friends can add events. There should be a reminder that notifies before the start of event. You can customize according to the different use-cases.
+
+**Webservices** - Implement a simple webservice. Can be anything like weather, calculator, or provide any useful resource. You can checkout different webservices over the web.
 
 Files
 ---------
