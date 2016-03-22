@@ -5,7 +5,7 @@ def findpi(numb):
     mypi = pi # assign pi to mypi
     return (round(mypi, numb))
 
-a = int(input('enter a number: '))
-
+#a = raw_input('enter a number: ')
+a = 4
 thepi = findpi(a)
 print(thepi)
