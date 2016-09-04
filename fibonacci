@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+int n,f1,f2;
+printf("\nEnter the number of terms in the fibonacci series you want to generate: ");
+scanf("%d",&n);
+f1=0;f2=1;
+if(n<0)
+printf("\nInvalid input");
+else
+if(n==1)
+printf("%d",f1);
+else if(n==2)
+printf("%d\n%d",f1,f2);
+else if(n>2)
+{
+printf("%d\n%d",f1,f2);
+for(i=3;i<=n;i++)
+{
+f3=f1+f2;
+printf("%d\n",f3);
+f1=f2;
+f2=f3;
+}
+}
+}
