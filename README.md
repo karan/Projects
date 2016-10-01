@@ -39,6 +39,7 @@ Problems are motivated by the ones shared at:
 - [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
 - [Security](https://github.com/karan/Projects#security)
 - [Machine Learning](https://github.com/karan/Projects#machine-learning)
+
 Numbers
 ---------
 
