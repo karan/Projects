@@ -146,6 +146,11 @@ Text
 
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
+***AES256 Cipher based on Conway's game of life output*** - A simple application that allows people to encrypt or decrypt their messages securely. Then they can share the parameters of the configuration or they can share the key (not recommended).
+
+
+***Conway's game of life***The Game of Life is not your typical computer game. It is a 'cellular automaton', and was invented by Cambridge mathematician John Conway.It consists of a collection of cells which, based on a few mathematical rules, can live, die or multiply. Depending on the initial conditions, the cells form various patterns throughout the course of the game.
+
 
 Networking
 ---------
