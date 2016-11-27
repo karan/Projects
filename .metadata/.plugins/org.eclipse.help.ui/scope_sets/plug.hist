@@ -1,0 +1,5 @@
+#Sun Sep 14 09:49:47 MST 2014
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=plug
