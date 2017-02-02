@@ -1,0 +1,12 @@
+public class Fibonacci {
+  public static void main (String [] args) {
+    new Fibonacci ();
+  }
+  
+  public Fibonacci () {
+    Scanner input = new Scanner(System.in);  // Reading from System.in
+    System.out.println("How many digits?");
+    int n = input.nextInt();
+    System.out.println(n);
+  }
+}
