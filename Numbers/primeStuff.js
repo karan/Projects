@@ -14,14 +14,15 @@ var isPrime = function (n) {
 
 var primeFactors = function (n) {
     let factors = [];
-    let i = 0;
-    for (i; i <= Math.sqrt(n); i += 1) {
-        if (n % i === 0 && isPrime(i)) {
-            factors.push(i);
-        }
-    }
     if (isPrime(n)) {
         factors.push(n);
+    } else {
+        let i = 0;
+        for (i; i <= Math.sqrt(n); i += 1) {
+            if (n % i === 0 && isPrime(i)) {
+                factors.push(i);
+            }
+        }
     }
     return factors;
 };
@@ -34,9 +35,9 @@ var primeFactorize = function (n) {
             factors.push(allFactors[0]);
             findFactors(n / allFactors[0]);
         }
-    }
+    };
     findFactors (n);
     return factors;
 };
 
-console.log(primeFactorize(600));
+console.log(primeFactorize(107));
