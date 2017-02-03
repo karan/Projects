@@ -1,4 +1,3 @@
-var k = 0;
 var selectionSort = function (arr) {
     'use strict';
     let a = arr.slice();
@@ -36,16 +35,16 @@ var bubbleSort = function (arr) {
     return a;
 };
 
-var mergeSort = function (a) {
+var mergeSort = function (arr) {
     'use strict';
-    let n = a.length;
+    let n = arr.length;
 
     if (n === 1) {
-        return a;
+        return arr;
     }
 
-    let a1 = mergeSort(a.slice(0, n / 2));
-    let a2 = mergeSort(a.slice(n / 2, n));
+    let a1 = mergeSort(arr.slice(0, n / 2));
+    let a2 = mergeSort(arr.slice(n / 2, n));
 
     return merge(a1, a2);
 };
@@ -70,9 +69,8 @@ var merge = function (a, b) {
         b.splice(0, 1);
     }
     return out;
-}
+};
 
 var testArray = [2, 5, 1, 9, 4, 3, 8, 6, 7, 0];
 console.log(testArray);
-console.log(selectionSort(testArray));
-console.log(testArray);
+console.log(quickSort(testArray));
