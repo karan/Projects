@@ -1,3 +1,22 @@
+var k = 0;
+var selectionSort = function (arr) {
+    'use strict';
+    let a = arr.slice();
+    let i = 0;
+    let j = 0;
+    let temp = 0;
+    for (i; i < a.length - 1; i += 1) {
+        for (j = i + 1; j < a.length; j += 1) {
+            if (a[j] < a[i]) {
+                temp = a[j];
+                a[j] = a[i];
+                a[i] = temp;
+            }
+        }
+    }
+    return a;
+}
+
 var bubbleSort = function (arr) {
     'use strict';
     let a = arr.slice();
@@ -55,5 +74,5 @@ var merge = function (a, b) {
 
 var testArray = [2, 5, 1, 9, 4, 3, 8, 6, 7, 0];
 console.log(testArray);
-console.log(mergeSort(testArray));
+console.log(selectionSort(testArray));
 console.log(testArray);
