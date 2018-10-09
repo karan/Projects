@@ -46,7 +46,7 @@ Numbers
 
 **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.[[GunaShekar02(C)]](https://github.com/GunaShekar02/Projects/blob/sample/fibo.c)
 
 **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
