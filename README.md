@@ -219,6 +219,8 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
+**Online Monopoly Banker** - Create a simple virtual monopoly banker that can track players balance. A replacement for the electronic banking device.
+
 
 Files
 ---------
