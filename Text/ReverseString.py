@@ -4,5 +4,6 @@ def revString(name):
 		new_name += char
 	return new_name
 
-test = revString("Sean")
-print(test)
+if __name__ == "__main__":
+	test = revString("Sean")
+	print(test)

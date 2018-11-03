@@ -9,4 +9,5 @@ def fizzBuzz(n = 100):
 		else:
 			print(i)
 
-fizzBuzz()
+if __name__ == "__main__":
+	fizzBuzz()
