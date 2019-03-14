@@ -1,5 +1,6 @@
 import math
 
+
 def shell():
     print("This piece of software shows Pi to a user definded decimal. (max 15)")
 
@@ -16,5 +17,6 @@ def shell():
             else:
                 print(math.pi, "| 15 is the max of after decimals")
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     shell()

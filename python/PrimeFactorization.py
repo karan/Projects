@@ -20,11 +20,7 @@ def _factorize(n):
             if c != len(a)-1:
                 string += ", "
             c += 1
-
-
     return string
-
-
 
 
 def shell():
@@ -41,5 +37,5 @@ def shell():
             print(_factorize(entry))
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     shell()
