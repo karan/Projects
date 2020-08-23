@@ -219,6 +219,8 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
+**Restaurant Listings** - Create a restaurant listing webapp where people can find restaurants to try out based on reviews posted by other users on the site. Also allow users to sign up and customize their profile for an enhanced web experience.
+
 
 Files
 ---------
