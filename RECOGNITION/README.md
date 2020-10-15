@@ -22,3 +22,26 @@ Just 10 days after the repo was created, it showed up in the top 5 on GH.
 ![](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png)
 
 Check other screenshots in this repo for more GH explore page rankings following that day.
+### July 16 2013
+
+Just 10 days after the repo was created, it showed up in the top 5 on GH.
+
+![](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png)
+
+Check other screenshots in this repo for more GH explore page rankings following that day.
+
+### July 18 2013
+
+Just 10 days after the repo was created, it showed up in the top 5 on GH.
+
+![](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png)
+
+Check other screenshots in this repo for more GH explore page rankings following that day.
+
+### July 20 2013
+
+Just 10 days after the repo was created, it showed up in the top 5 on GH.
+
+![](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png)
+
+Check other screenshots in this repo for more GH explore page rankings following that day.
