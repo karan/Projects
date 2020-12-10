@@ -144,6 +144,8 @@ Text
 
 **Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
 
+**Find and Replace in text** - A simple program that can find and replace words in text. 
+
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
 
