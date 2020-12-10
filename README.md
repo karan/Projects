@@ -146,6 +146,10 @@ Text
 
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
 
+**Google Case Problem** - Converts a given string to google case.A google case string is a string in which all the words are converted to upper case just leaving the initial letters of each word (ex:gOOGLE cASE).
+
+
+
 
 Networking
 ---------
