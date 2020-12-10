@@ -274,3 +274,5 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+
+**Reverse Caesar cipher** - For a given encrypted phrase, eg _Jk_, try each key and find the most likely outcome. You could use a dictionary api or similar and test if, for example, more than 90% of the words return a definition. You could also look for patterns with vowels, consonants etc.
