@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 This ia a Demo Project list.
 Merge-Conflict in Git
+=======
+This is a Demo Project list.
+Merge-Conflict in Git 
+>>>>>>> 84a93dc... Commit Done for Repo B
 Mega Project List
 ========
 
