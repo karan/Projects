@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+This ia a Demo Project list.
+Merge-Conflict in Git
+<<<<<<< HEAD
+=======
+This is a Demo Project list.
+Merge-Conflict in Git
+A New Edit in README.md
+>>>>>>> 84a93dc... Commit Done for Repo B
+=======
+A New Edit in README.md
+>>>>>>> 16d3bb4... SECOND TIME COMMIT
 Mega Project List
 ========
 
