@@ -12,7 +12,8 @@ class Alarm(object):
         self.t = self.set()
         signal.signal(signal.SIGINT,self.catch)
     def ring(self):
-        for i in range(5):
+        print("[*] Press Ctrl + C to cancel alarm")
+        while True:
             alarm_file = "sounds/alarm.mp3"
             playsound(alarm_file)
     def activate(self):
@@ -26,11 +27,12 @@ class Alarm(object):
             day, month, hour, minute, sec, year = input(prompt).split()
             time_input = day + whitespace + month + whitespace + hour + whitespace + minute + whitespace + sec + whitespace + year
             t = time.strptime(time_input,"%d %B %H %M %S %Y") #time struct
-            msg = colored("Alarm set for ","red")
-            msg_time = colored(time.asctime(t),"red",attrs=["blink"])
+
+            msg = colored("[*] Alarm set for ","red")
+            msg_time = colored(time.asctime(t),"green",attrs=["blink"])
+
             print(msg,end="")
             print(msg_time)
-    
             return time.mktime(t) # time float
         except (TypeError,ValueError):
             print("Wrong input")
