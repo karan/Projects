@@ -274,3 +274,7 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+
+**Vernam cipher** - Implement a Vernam cipher, both encrypting and decrypting. The key chosen here is a string whose length must be either less or equal to the length of the plain text. The Vernam cipher is a cipher technique that encrypts the plain text by working on the binary level of the text. Here, firstly, we convert both our plain text and the key string into its binary form.The bits of the key string is repeated again and again until its length becomes equal to that of the plain text. Perform XOR operation between the elements of the plain text with the respective elements of the ley string which hold the same positions. 
+Encryption -  E (Pi , Ki) =  Pi  (XOR)  Ki
+Same way, Decryption - D (Ci , Ki) =  Ci (XOR)  Ki
