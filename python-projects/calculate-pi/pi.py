@@ -4,6 +4,8 @@ Kinda working PI calculator...
 '''
 
 import sys
+from math import atan
+import os
 
 pi = 3
 sys.setrecursionlimit(100000)
@@ -24,11 +26,21 @@ def PI(x,counter):
                 print(e)
 
 
+def PI_gregory_leibniz_series():
+    # pi / 4 = 4 * arctan(1/5) - arctan(1/239)
+    pi = 4 * atan(1/5) - atan(1/239)
+    return pi * 4
+
+
 def main():
         if len(sys.argv) < 2:
             print(f"[*] Usage {sys.argv[0]} <Tries> ")
             raise SystemExit
         try:
+            if sys.argv[1] == "fast":
+                pi = PI_gregory_leibniz_series()
+                print(pi)
+                os._exit(0)
             PI(2,int(sys.argv[1]))
         except:
             print("[*] Invalid argument")
