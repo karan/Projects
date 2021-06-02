@@ -9,24 +9,24 @@
 
 from sys import argv
 import decimal
+from datetime import datetime
 
 def calculate_e(x):
+    decimal.getcontext().prec = int(argv[1]) + 1
     for n in range(1,x):
-        e = decimal.Decimal(pow((1+1/n),n))
+        e = decimal.Decimal(pow((decimal.Decimal(1)+decimal.Decimal(1)/decimal.Decimal(n)),n))
         yield e
-        
-def calculate_decimals(x):
-    no = float(x)
-    return len(str(no).split(".")[1])
 
 def main():
     assert len(argv) == 2
+    PREC_NO = 500
     try:
-        for e in calculate_e(10000000000000):
-            dec = calculate_decimals(e)
-            if dec == int(argv[1]):
-                print(e)
-                break
+        t = datetime.now()
+        for e in calculate_e(PREC_NO):
+            euler_no = e
+        print(euler_no)
+        t_final = datetime.now() - t
+        print("[*] Time passed: ", t_final)
         
     except AssertionError as err:
         print(f"[*] Usage: {argv[0]} <decimals>")
