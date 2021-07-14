@@ -8,16 +8,18 @@ package fizzbuzz
 
 import (
 	"fmt"
+
+	"github.com/fatih/color"
 )
 
 func Printer(x int) {
 
 	if x%3 == 0 && x%5 == 0 {
-		fmt.Println("FizzBuzz")
+		color.Red("FizzBuzz")
 	} else if x%3 == 0 {
-		fmt.Println("Fizz")
+		color.Blue("Fizz")
 	} else if x%5 == 0 {
-		fmt.Println("Buzz")
+		color.Blue("Buzz")
 	} else {
 		fmt.Println(x)
 	}
