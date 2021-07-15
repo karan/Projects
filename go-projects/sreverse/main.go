@@ -11,20 +11,19 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 )
 
 func reverseString(s string) string {
+	var sb strings.Builder
 	if len(s) == 1 {
 		return s
 	}
-	reversed := make([]byte, len(s))
-
 	for i := len(s) - 1; i >= 0; i-- {
-		reversed = append(reversed, s[i])
+		sb.WriteByte(s[i])
 	}
 
-	return string(reversed)
-
+	return sb.String()
 }
 
 func main() {
