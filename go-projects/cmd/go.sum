@@ -1,0 +1,4 @@
+github.com/go-cmd/cmd v1.3.0 h1:Wet2eYkLouFqyiG+x6P6l8CICRywhRD6sjMNalTSvbs=
+github.com/go-cmd/cmd v1.3.0/go.mod h1:l/X/csRuYRDqiQIz9PPJBn4xDrdxgBXeLE9x1BeFU6M=
+github.com/go-test/deep v1.0.6 h1:UHSEyLZUwX9Qoi99vVwvewiMC8mM2bf7XEM2nqvzEn8=
+github.com/go-test/deep v1.0.6/go.mod h1:QV8Hv/iy04NyLBxAdO9njL0iVPN1S4d/A3NVv1V36o8=
