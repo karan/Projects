@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "bson.h": "c",
-        "mongoc.h": "c"
-    }
-}
