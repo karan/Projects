@@ -1,6 +1,7 @@
 #include <microhttpd.h>
 #include <jansson.h>
 #include "services.h"
+#include <time.h>
 
 int handler(void *cls, struct MHD_Connection *connection,const char *url,const char *method, const char *version,const char *upload_data,size_t *upload_data_size, void **con_cls) {
     json_t* headers = json_object();
@@ -8,6 +9,13 @@ int handler(void *cls, struct MHD_Connection *connection,const char *url,const c
     char* key;
     json_t* value;
     int ret;
+
+    time_t rawtime;
+    struct tm * timeinfo;
+
+    time ( &rawtime );
+    timeinfo = localtime ( &rawtime );
+
     if (NULL == *con_cls) {
         *con_cls = connection; return MHD_YES;
     }
@@ -28,7 +36,7 @@ int handler(void *cls, struct MHD_Connection *connection,const char *url,const c
            return MHD_NO;
        }
        else {
-           printf("%s[*]Response was generated\n",KRED);
+           printf("%s[*]Response generated @ %s",KRED,asctime (timeinfo));
            RST;
            MHD_add_response_header(res,"Content-Type","application/json; charset=utf-8");
 		   return MHD_queue_response(connection,MHD_HTTP_OK,res);

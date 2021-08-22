@@ -29,10 +29,10 @@ mongoc_collection_t* init() {
 
 
     // cleanup shit ( needs to be moved to calling func or to be saved to stand alone func, maybe cleanup()
-   // mongoc_collection_destroy (coll);
-   // mongoc_database_destroy (db);
-   // mongoc_client_destroy (client);
-  // mongoc_cleanup ();
+    mongoc_collection_destroy (coll);
+   mongoc_database_destroy (db);
+   mongoc_client_destroy (client);
+    mongoc_cleanup ();
 }
 
 char* getData( mongoc_collection_t* coll) {
@@ -42,7 +42,7 @@ char* getData( mongoc_collection_t* coll) {
     bson_error_t error;
 
     bson_t query = BSON_INITIALIZER;
-    bson_t* opts = BCON_NEW("limit", BCON_INT32(20),"projection","{","_id",BCON_INT32(0),"}"); // need to use projection as document for the opts 
+    bson_t* opts = BCON_NEW("limit", BCON_INT32(15),"projection","{","_id",BCON_INT32(0),"}"); // need to use projection as document for the opts 
 
     //db.chinese.find({},{proverb:1,category:1,_id:0})  - only get category and proverb
 
