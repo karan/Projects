@@ -1,19 +1,12 @@
 #include "http-echo.h"
 
-/*
-Function used to get request headers
-Executed FOR EACH header in place, so need to pay attention on how to collect data
-*/
+
 int getHeader(void *cls, enum MHD_ValueKind kind, const char *key, const char *value) {
    int res = json_object_set((json_t*)cls,key,json_string(value));
    return MHD_YES;
 }
 
-/* 
-Request handler;
-Gets executed for every call received
-Collects the request headers in a JSON objects and send that back as a response
-*/
+
 int handler(void *cls, struct MHD_Connection *connection,const char *url,const char *method, const char *version,const char *upload_data,size_t *upload_data_size, void **con_cls) {
    
     json_t* headers = json_object();

@@ -2,9 +2,7 @@
 #include <microhttpd.h>
 #include <arpa/inet.h>
 
-/*
-Function used to retrieve client IP address; took me a while to find how to do that, docs suck
-*/
+
 char* getIP(struct MHD_Connection *connection) {
     const union MHD_ConnectionInfo* addr;
     struct sockaddr_in *so;
