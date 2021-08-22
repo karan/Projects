@@ -42,12 +42,13 @@ char* getData( mongoc_collection_t* coll) {
     bson_error_t error;
 
     bson_t query = BSON_INITIALIZER;
-    bson_t* opts = BCON_NEW("limit", BCON_INT32(10),"projection","{","_id",BCON_INT32(0),"}"); // need to use projection as document for the opts 
+    bson_t* opts = BCON_NEW("limit", BCON_INT32(20),"projection","{","_id",BCON_INT32(0),"}"); // need to use projection as document for the opts 
 
     //db.chinese.find({},{proverb:1,category:1,_id:0})  - only get category and proverb
 
     char *str;
     char* data = malloc(2024*sizeof(char));
+    strcpy(data,"\n[\n");
 
     cursor = mongoc_collection_find_with_opts (coll, &query, opts, NULL);
 
@@ -55,8 +56,12 @@ char* getData( mongoc_collection_t* coll) {
         
             str = bson_as_canonical_extended_json (doc, NULL);
             strcat(data,str);
+            strcat(data,",");
             bson_free (str);
         }
+
+       data[strlen(data)-1] = '\0';
+       strcat(data,"]\n"); // need this to have a valid JSON struct, otherwise the frontend will not pick it
      if (mongoc_cursor_error (cursor, &error)) {
         fprintf (stderr, "[*] Failed to iterate all documents: %s\n", error.message);
         return NULL;
