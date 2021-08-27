@@ -52,7 +52,7 @@ char* getMD5(char* message) {
     unsigned char md_value[EVP_MAX_MD_SIZE];
     unsigned int md_len;
 
-    char* digest = "md5-sha1";
+    char* digest = "md5";
 
     md = EVP_get_digestbyname(digest);
     if (md == NULL) {
@@ -91,6 +91,7 @@ char* fgetMD5(char* filename) {
     int fd = open(filename,O_RDONLY);
     char* message = malloc(st.st_size);
     message = mmap(NULL,st.st_size,PROT_READ,MAP_PRIVATE,fd,0);
+    close(fd);
     return getMD5(message);
 
 }
