@@ -25,19 +25,19 @@ Problems are motivated by the ones shared at:
 
 ## Table of Contents
 
-- [Numbers](https://github.com/karan/Projects#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
+- [Numbers](#numbers)
+- [Classic Algorithms](#classic-algorithms)
+- [Graph](#graph)
+- [Data Structures](#data-structures)
+- [Text](#text)
+- [Networking](#networking)
+- [Classes](#classes)
+- [Threading](#threading)
+- [Web](#web)
+- [Files](#files)
+- [Databases](#databases)
+- [Graphics and Multimedia](#graphics-and-multimedia)
+- [Security](#security)
 
 Numbers
 ---------
@@ -117,6 +117,12 @@ Data Structures
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
+
+**HyperLogLog** - An [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) is an algorithm for the count-distinct problem, approximating the number of distinct elements in a multiset. Calculating the exact cardinality of a multiset requires an amount of memory proportional to the cardinality, which is impractical for very large data sets
+
+**Bloom filter** - A [Bloom filter](https://llimllib.github.io/bloomfilter-tutorial/) is a data structure designed to tell you, rapidly and memory-efficiently, whether an element is present in a set. The price paid for this efficiency is that a Bloom filter is a probabilistic data structure: it tells us that the element either definitely is not in the set or may be in the set.
+
+**Radix tree** - A [Radix tree](https://iq.opengenus.org/radix-tree/) is a data structure that represents a space-optimized trie (prefix tree) in which each node that is the only child is merged with its parent. ... Unlike regular trees, edges can be labeled with sequences of elements as well as single elements.
 
 
 Text
