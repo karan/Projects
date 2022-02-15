@@ -1,0 +1,470 @@
+openapi: 3.0.0
+info:
+  description: GMB-MasterData-Service - Elasticsearch Edition
+  version: 2.0.0
+  title: MasterData Service
+
+servers: 
+  - url: http://localhost:8080/v1    
+
+paths:
+  /:
+    get:
+      parameters:
+        - $ref: '#/components/parameters/paginationLimit1000Param'
+      responses:
+        '200':
+          $ref: '#/components/responses/GetSchemaListResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /{schema}/schema:
+    get:
+      parameters:
+        - $ref: '#/components/parameters/schemaParam'
+      responses:
+        '200':
+          description: TODO
+          content:
+            application/vnd.schema+json:
+              schema:
+                type: object # json element as object (passt)
+        '404':
+          $ref: '#/components/responses/NotFound'
+        
+  /{schema}:
+    get:
+      parameters:
+        - $ref: '#/components/parameters/schemaParam'
+        - $ref: '#/components/parameters/SearchParametersParam'
+
+      responses:
+        '200':
+          description: TODO
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDataFacetResponse'
+            application/vnd.geo+json: 
+              schema:
+                $ref: '#/components/schemas/GeoJsonObject'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+    post:
+      parameters: 
+        - $ref: '#/components/parameters/schemaParam'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              description: saveEntry methode
+              type: object
+          application/vnd.mdobj+json:
+            schema: 
+              allOf:
+                - $ref: '#/components/schemas/MasterDataObject'
+                - description: jsonElement/saveEntry -> mdObject
+          application/vnd.mdobjlist+json:
+            schema: # JsonArray / saveEntries -> array of mdObject (ok)
+              description: todo
+              type: array
+              items:
+                $ref: '#/components/schemas/MasterDataObject'
+          application/vnd.geo+json: 
+            schema: # jsonObject / saveEntriesGeoJSON -> geoJson object (ok)
+              allOf:
+                - $ref: '#/components/schemas/GeoJsonObject'
+                - description: todo
+          application/vnd.mdattr+json:
+            schema: # jsonElement / saveEntryPlain passt (ok)
+              type: object
+              description: todo
+          application/vnd.mdattrlist+json:
+            schema: # JsonArray / saveEntriesPlain -> array of objects (ok)
+              type: object
+              description: todo
+            
+      responses:
+        '200':
+          description: TODO
+          content:
+            application/vnd.mdobj+json:
+              schema: # jsonElemet/saveEntry - saveEntryPlain -> mdObject (ok)
+                allOf:
+                  - $ref: '#/components/schemas/MasterDataObject'
+                  - description: todo
+            application/vnd.importstatuslist+json: 
+              schema: #saveEntriesGeoJSON  -saveEntriesPlain - saveEntries  (ok)
+                allOf:
+                  - type: array
+                    items:
+                      $ref: '#/components/schemas/BulkImportStatus'
+                  - description: todo    
+        '400': 
+          $ref: '#/components/responses/BadRequet'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  
+  /{schema}/{id}:
+    get:
+      parameters:
+        - $ref: '#/components/parameters/schemaParam'
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        '200':
+          description: TODO
+          content:
+            application/json:
+              schema: # json element / getEntryById -> mdObject (ok)
+                $ref: '#/components/schemas/MasterDataObject'
+        '400': 
+          $ref: '#/components/responses/BadRequet'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500': 
+          $ref: '#/components/responses/InternalServerError'
+
+    post:
+      parameters: 
+        - $ref: '#/components/parameters/schemaParam'
+        - $ref: '#/components/parameters/idParam'
+      requestBody:
+        required: true
+        content:
+          application/vnd.mdattr+json:
+            schema:
+              type: object # jsonElement / saveEntryPlain (ok)
+      responses:
+        '200':
+          description: TODO
+          content:
+            application/vnd.mdobj+json:
+              schema: # jsonElemet/ saveEntryPlain methode -> return mdObject (ok)
+                $ref: '#/components/schemas/MasterDataObject'
+        '400': 
+          $ref: '#/components/responses/BadRequet'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+    delete:
+      parameters:
+        - $ref: '#/components/parameters/schemaParam'
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        '200':
+          description: delete successful
+        '404':
+          $ref: '#/components/responses/NotFound'
+          
+components:
+  parameters:
+    idParam:
+      in: path
+      name: id
+      schema:
+        type: string
+      required: true
+
+    SearchParametersParam:
+      in: query
+      name: searchParams
+      required: false 
+      schema:
+        $ref: '#/components/schemas/SearchParameters'
+      allowReserved: true  
+    
+    schemaParam:
+      in: path
+      name: schema
+      required: true
+      schema:
+        type: string
+        pattern: '^[\w\d_-]+(;[\d]+\.[\d]+\.[\d]+)?$'
+        
+    paginationLimit1000Param:
+      in: query
+      name: pagination
+      required: false
+      schema:
+        $ref: '#/components/schemas/PaginationLimit1000'
+
+    paginationLimit20Param:
+      in: query
+      name: pagination
+      required: false
+      schema:
+        $ref: '#/components/schemas/PaginationLimit20'
+  
+  schemas:
+    GeoJsonObject:
+      type: object
+      description: GeoJSON according to RFC 7946 
+      externalDocs:
+        url: https://datatracker.ietf.org/doc/html/rfc7946
+
+    MasterDataObject:
+      type: object
+      properties:
+        id:
+          type: string
+        schema:
+          type: string
+        attributes:
+          type: object
+          additionalProperties: true
+          
+    BulkImportStatus:
+      type: object
+      properties:
+        id:
+          type: string
+        status:
+          type: integer
+        success:
+          type: boolean
+        error:
+          type: string
+    
+    SearchParameters:
+      allOf:
+        - $ref: '#/components/schemas/Filters'
+        - $ref: '#/components/schemas/SortCriterias'
+        - $ref: '#/components/schemas/FieldList'
+        - $ref: '#/components/schemas/PaginationLimit20'
+        - $ref: '#/components/schemas/Facets'
+
+    Facets:
+      type: object
+      properties:
+        facet:
+          type: array
+          items:
+            $ref: '#/components/schemas/FacetDefinition'
+
+    FacetDefinition:
+      type: object
+      properties:
+        facetKey:
+          type: string
+        values:
+          type: array
+          items:
+            type: string
+        subFacets:
+          type: array
+          items:
+            $ref: '#/components/schemas/FacetDefinition'
+    
+    FieldList:
+      type: object
+      properties:
+        fields:
+          type: array
+          items:
+            type: string
+    
+    SortCriterias:
+      type: object
+      properties:
+        sort:
+          type: array
+          items:
+            type: string
+
+    Filters:
+      type: object
+      properties:
+        filter:
+          type: array
+          items:
+            $ref: '#/components/schemas/FilterDefinition'
+      
+    FilterDefinition:
+      type: object
+      properties:
+        filterFor:
+          type: array
+          items: 
+            type: string
+        values:
+          type: array
+          items: 
+            type: string
+
+    PaginatedDataFacetResponse: 
+      allOf:
+        - $ref: '#/components/schemas/PaginatedDataResponseObject'
+        - type: object
+          properties:
+            data:
+              type: array
+              items:
+                $ref: '#/components/schemas/MasterDataObject' 
+            facets:
+              type: array
+              items:
+                $ref: '#/components/schemas/Facet'
+                
+    SchemaRefPaginatedDataResponse:
+      allOf:
+        - $ref: '#/components/schemas/PaginatedDataResponseObject'
+        - type: object
+          properties:
+            data:
+              type: array
+              items:
+                type: string
+                pattern: '^[\w\d_-]+(;[\d]+\.[\d]+\.[\d]+)?$'
+
+    PaginatedDataResponseObject:
+      type: object
+      properties:
+        count:
+          type: integer
+          format: int64
+        total:
+          type: integer
+          format: int64
+        limit:
+          type: integer
+          format: int64
+        offset:
+          type: integer
+          format: int64
+    
+    Pagination:
+      type: object
+      description: TODO
+      properties:
+        page[offset]:
+          type: integer
+          format: int64
+          default: 0
+
+    PaginationLimit1000:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          properties:
+            page[limit]:
+              type: integer
+              format: int64
+              default: 1000
+
+    PaginationLimit20:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          properties:
+            page[limit]:
+              type: integer
+              format: int64
+              default: 20
+
+    Facet:
+      type: object
+      properties:
+        name:
+          type: string
+        label:
+          type: string
+        entries:
+          type: array
+          items:
+            anyOf:
+              - $ref: '#/components/schemas/ValueFacetEntry'
+              - $ref: '#/components/schemas/NodeFacetEntry'
+              - $ref: '#/components/schemas/CountFacetEntry'
+              
+    CountFacetEntry:
+      allOf:
+        - $ref: '#/components/schemas/NodeFacetEntry'
+        - type: object
+          properties:
+            count:
+              type: integer
+              format: long
+    
+    NodeFacetEntry:
+      allOf:
+        - $ref: '#/components/schemas/AbstractLeafFacetEntry'
+        - type: object
+          properties:
+            facets:
+              type: array
+              items:
+                $ref: '#/components/schemas/Facet'
+            items:
+              type: array
+              items:
+                type: object
+
+    ValueFacetEntry:
+      allOf:
+        - $ref: '#/components/schemas/AbstractLeafFacetEntry'
+        - type: object
+          properties:
+            value:
+              type: integer
+              format: double
+
+    AbstractLeafFacetEntry:
+      type: object
+      properties:
+        name:
+          type: string
+        label:
+          type: string
+        meta:
+          type: object
+          additionalProperties: true
+        active:
+          type: boolean
+    
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      required:
+        - code
+        - message
+
+  responses:
+    GetSchemaListResponse: 
+      description: TODO
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/SchemaRefPaginatedDataResponse'
+            
+    InternalServerError:
+      description: An unexpected error occured
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'            
+    
+    BadRequet:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'            
+    
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
