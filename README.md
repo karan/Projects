@@ -197,6 +197,8 @@ Threading
 
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
+**Web Scraper** - Try making a web scraper that can scrape multiple pages simultaneously with threading and stores the data in database. You can use any database you like but make sure to run the scraper 24x7. *Optional - Make a dashboard UI to control the scraper's behavior*
+
 
 Web
 ---------
@@ -219,6 +221,14 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
+**QR Code Generator** - After covid almost every store uses a qr code to allow customers to scan their menu. Can you make something similar that will allow anyone to convert a link/image to qr code?
+
+**E-Commerce store** - Create an e-commerce store with stripe integration. You can use stripe's dashboard to create and edit products and use their api to fetch those products and allow customers to shop them on your website.
+
+**AI Chatbot** - You can make a Chatbot that can respond to commands. Try to make use of NLP to generate responses, checkout these libraries - https://spacy.io/, https://www.nltk.org/, https://openbase.com/js/natural
+
+**P.W.A** - Web has progressed a lot in last few years, gone through many developments and PWA reflects the potential of web being used as native application in android/desktop etc. You can make a PWA that notifies you about your meetings with push notifications or the one that tracks your behavior and daily routine. Try checking out this website to know what PWA's can do today - https://whatpwacando.today/
+
 
 Files
 ---------
@@ -234,6 +244,8 @@ Files
 **Mp3 Tagger** - Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.
 
 **Code Snippet Manager** - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. *Optional: For extra practice try adding syntax highlighting based on the language.*
+
+**File Storage System** - Make a file storage system that lets user upload any file format and it gets saved on the server on the file system. 
 
 
 Databases
@@ -269,8 +281,11 @@ Graphics and Multimedia
 
 **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
 
+**3d Design** - Make use of Three.js library and try out different 3d designs you can make. Checkout this website to see what other people have built - https://webflow.com/made-in-webflow/3d 
 
 Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+
+**Password encrypter** - Make a password encryption system like Bitwarden. You can either use your own algorithm to encrypt and decrypt the password and publish it on npm for other people to use or use that's built already from npm. Make sure to keep the passwords safe! You can make use of file system to store the passwords from individual users.
