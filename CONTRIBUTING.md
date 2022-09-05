@@ -30,4 +30,4 @@ If you have suggestions for adding or removing projects, feel free to [open an i
 
 It is required that any changes made to the projects (this does not include adding solutions) in *README.md*, must be reflected in the [Solutions *README.md* file](https://github.com/thekarangoel/Projects-Solutions/blob/master/README.md)
 
-If you're copying a project from some other webpage, you **MUST** link to it in the *Sources* section at the bottom of repo's *README.md* and *README-scratch.md*.
+If you're copying a project from some other webpage, you **MUST** link to it in the *Sources* section at the bottom of repo's *README.md* and *README-scratch.md*
