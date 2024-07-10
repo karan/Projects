@@ -86,6 +86,9 @@ Numbers
 
 **Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
 
+**Binary Code Guess** - The The user has a secret code composed of n bits (each bit is either '0' or '1'). The program attempts to determine this secret code by iteratively guessing and refining its guesses 
+based on feedback from the user.
+
 Classic Algorithms
 -----------------
 
@@ -96,7 +99,6 @@ Classic Algorithms
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
-
 
 Graph
 --------
