@@ -1,0 +1,12 @@
+{
+  "name": "node-bin-setup",
+  "version": "1.1.3",
+  "description": "Internal script used by the node package to install architecture-specific packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aredridel/node-bin-setup.git"
+  },
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC"
+}
