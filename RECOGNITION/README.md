@@ -1,7 +1,7 @@
 Recognition for Projects
 =========================
-
-### Throughout July
+hello
+### Throughout July 
 
 Ever since this repo was created, it has been in the top list on GH. Be it the daily or weekly list!
 
