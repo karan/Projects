@@ -1,0 +1,1 @@
+-Added Deepika to the contributors list
