@@ -269,6 +269,9 @@ Graphics and Multimedia
 
 **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
 
+**Snake Game** - Classic snake game where the player controls a growing snake to collect food while avoiding collisions.
+
+
 
 Security
 -------------
