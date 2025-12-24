@@ -1,0 +1,97 @@
+CUSTOMER SUPPORT FAQ - ACME SOFTWARE
+
+=== ACCOUNT & BILLING ===
+
+Q: How do I create an account?
+A: To create an account, visit our website at acme-software.com and click the "Sign Up" button in the top right corner. Fill in your email, create a password, and verify your email address. Account creation is free and takes less than 2 minutes.
+
+Q: What payment methods do you accept?
+A: We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, and bank transfers for annual plans. Cryptocurrency payments are available for Enterprise customers.
+
+Q: How do I upgrade my plan?
+A: To upgrade your plan, log into your account, navigate to Settings > Billing, and click "Upgrade Plan." Choose your desired tier (Pro or Enterprise) and confirm. The upgrade is instant, and you'll only be charged the prorated difference for the current billing period.
+
+Q: What is your refund policy?
+A: We offer a 30-day money-back guarantee on all plans. If you're not satisfied within the first 30 days, contact support@acme-software.com for a full refund. After 30 days, refunds are evaluated on a case-by-case basis.
+
+Q: Can I cancel my subscription anytime?
+A: Yes, you can cancel anytime from Settings > Billing > Cancel Subscription. Your account will remain active until the end of your current billing period. No refunds are given for partial months except within the 30-day guarantee window.
+
+=== FEATURES & TECHNICAL ===
+
+Q: What are the system requirements?
+A: ACME Software runs on any modern browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+). For desktop apps, we support Windows 10/11, macOS 11+, and Ubuntu 20.04+. Mobile apps require iOS 14+ or Android 10+.
+
+Q: Does ACME Software work offline?
+A: Yes! Our desktop and mobile apps support offline mode. Changes made offline are automatically synced when you reconnect to the internet. The web version requires an internet connection.
+
+Q: How do I integrate with third-party tools?
+A: ACME Software offers native integrations with 50+ tools including Slack, Zapier, Google Workspace, and Microsoft Teams. Go to Settings > Integrations to browse available connections. Enterprise customers can also use our REST API for custom integrations.
+
+Q: What's the maximum file size for uploads?
+A: Free tier: 10MB per file. Pro tier: 100MB per file. Enterprise tier: 1GB per file. For larger files, contact our support team to discuss custom solutions.
+
+Q: Is my data encrypted?
+A: Yes, all data is encrypted at rest using AES-256 encryption and in transit using TLS 1.3. Enterprise customers can also enable end-to-end encryption for an additional layer of security.
+
+=== TROUBLESHOOTING ===
+
+Q: I forgot my password. How do I reset it?
+A: Click "Forgot Password" on the login page, enter your email address, and we'll send you a password reset link. The link expires after 1 hour for security reasons.
+
+Q: Why am I getting a "Session Expired" error?
+A: This occurs when you've been inactive for more than 24 hours. Simply log in again to create a new session. You can enable "Keep me logged in" to extend sessions to 30 days.
+
+Q: The app is running slowly. What should I do?
+A: First, try clearing your browser cache or restarting the desktop app. If the issue persists, check if you have many browser extensions enabled (disable them temporarily). For desktop apps, ensure you're running the latest version from Settings > About.
+
+Q: I can't upload files. What's wrong?
+A: Common causes: 1) File exceeds size limit for your plan, 2) File type not supported (we support images, PDFs, Office docs, and text files), 3) Browser blocking file uploads (check permissions in browser settings).
+
+Q: Error: "API rate limit exceeded"
+A: This means you've made too many requests in a short time. Free tier: 100 requests/hour. Pro: 1000 requests/hour. Enterprise: 10,000 requests/hour. Wait a few minutes and try again, or upgrade your plan for higher limits.
+
+=== PRICING & PLANS ===
+
+Q: What's included in the Free plan?
+A: The Free plan includes: 5 projects, 10GB storage, basic features, community support, and API access (100 requests/hour). Perfect for individuals and hobby projects.
+
+Q: What's the difference between Pro and Enterprise?
+A: Pro ($29/month): 50 projects, 500GB storage, priority email support, advanced features, API (1000 req/hr), and team collaboration for up to 10 users.
+
+Enterprise (Custom pricing): Unlimited projects and storage, 24/7 phone support, dedicated account manager, custom integrations, SLA guarantee, SSO/SAML, and advanced security features.
+
+Q: Do you offer discounts for students or nonprofits?
+A: Yes! Students and educators get 50% off Pro plans with a valid .edu email. Nonprofits receive 30% off all paid plans. Contact sales@acme-software.com to apply.
+
+Q: Is there a free trial for paid plans?
+A: Yes, we offer a 14-day free trial of the Pro plan with no credit card required. You can start your trial from the pricing page.
+
+=== SECURITY & PRIVACY ===
+
+Q: Where is my data stored?
+A: Data is stored in SOC 2 Type II certified data centers in the US (primary) and EU (backup). Enterprise customers can request data residency in specific regions.
+
+Q: Do you sell my data to third parties?
+A: Absolutely not. We never sell, rent, or share your data with third parties for marketing purposes. Read our full privacy policy at acme-software.com/privacy.
+
+Q: How do I delete my account and data?
+A: Go to Settings > Account > Delete Account. This permanently deletes all your data within 30 days. You can also request immediate deletion by contacting support with "GDPR Data Deletion Request" in the subject line.
+
+Q: Is ACME Software GDPR compliant?
+A: Yes, we are fully GDPR, CCPA, and SOC 2 compliant. We provide data processing agreements (DPAs) for Enterprise customers.
+
+=== SUPPORT & CONTACT ===
+
+Q: How do I contact customer support?
+A:
+- Email: support@acme-software.com (response within 24 hours)
+- Live Chat: Available on our website Mon-Fri 9am-5pm EST
+- Phone: Enterprise customers only - provided in welcome email
+- Community Forum: community.acme-software.com
+
+Q: Do you have a knowledge base or documentation?
+A: Yes! Visit docs.acme-software.com for comprehensive guides, tutorials, video walkthroughs, and API documentation. Our community forum also has user-contributed tips and tricks.
+
+Q: How long does support usually take to respond?
+A: Free tier: 24-48 hours via email. Pro tier: 12 hours via email. Enterprise: 4 hours via email, 1 hour via phone, with 24/7 emergency support for critical issues.
