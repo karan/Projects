@@ -1,0 +1,6 @@
+# Rubik's Cube Solver - Requirements
+#
+# This project uses only Python standard library.
+# No external dependencies are required!
+#
+# Python version: 3.10+
