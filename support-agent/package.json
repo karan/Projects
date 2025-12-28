@@ -1,0 +1,39 @@
+{
+  "name": "support-agent-layer-0",
+  "version": "0.1.0",
+  "description": "Layer 0: Foundational infrastructure for AI-powered support agent with structured outputs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "ascii-flow": "tsx docs/visuals/ascii-flow.ts"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "ai": "^4.0.0",
+    "@ai-sdk/anthropic": "^1.0.0",
+    "@ai-sdk/openai": "^1.0.0",
+    "zod": "^3.23.0",
+    "nanoid": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "tsx": "^4.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

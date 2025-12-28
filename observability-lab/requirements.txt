@@ -1,0 +1,9 @@
+# FastAPI and ASGI server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Logfire for observability with FastAPI instrumentation
+logfire[fastapi]==0.49.0
+
+# Additional dependencies
+python-multipart==0.0.6

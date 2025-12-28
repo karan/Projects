@@ -1,0 +1,48 @@
+/**
+ * Global styles for Support Agent
+ * Layer 0: Minimal styling with Tailwind
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border: 214 32% 91%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar for chat */
+.chat-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
