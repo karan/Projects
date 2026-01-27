@@ -1,276 +1,270 @@
-Mega Project List
+Mega Proje Listesi
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+Herhangi bir programlama dilinde herkesin çözebileceği pratik projelerin listesi . Bu projeler birden çok kategoriye ayrılmıştır ve her kategorinin kendi klasörü vardır.
 
-To get started, simply fork this repo.
+Başlamak için bu repoyu çatallayın.
 
-## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+## [KATKIDA BULUNMAKTADIR](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
+Bu repoya [katkıda bulunmanın](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) yollarını görün. Mevcut sorunlara **çözümler** (bu [repoda](https://github.com/thekarangoel/Projects-Solutions) yayınlanacak) ile katkıda bulunabilir, **yeni projeler ekleyebilir** veya var olanları kaldırabilirsiniz. Tüm talimatları doğru şekilde uyguladığınızdan emin olun.
 
+## [Çözümler](https://github.com/thekarangoel/Projects-Solutions)
 
-## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
+[Bu repoda](https://github.com/thekarangoel/Projects-Solutions) bu projelerin diğer birçok dilde diğer kullanıcılar tarafından uygulamalarını bulabilirsiniz.
+## Kredi
 
-You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
+*Bu repo [Karan Goel](http://twitter.com/karangoel) tarafından derlenmiştir.*
+*Bu repo [Yusiko99](https://github.com/Yusiko99/) tarafından Türk diline çevirildi.*
 
-## Credits
+Sorunlar şu adreste paylaşılanlardan kaynaklanır:
 
-This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
+* [Martyr2'nin Mega Proje Listesi](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
+* [Rosetta Kodu](http://rosettacode.org/)
 
-Problems are motivated by the ones shared at:
+## İçindekiler
+- [Sayılar](https://github.com/Yusiko99/Project-Turkish-#Sayılar)
+- [Klasik Algoritmalar](https://github.com/Yusiko99/Project-Turkish-#Klasik-Algoritmalar)
+- [Grafik](https://github.com/Yusiko99/Project-Turkish-#Grafik)
+- [Veri Yapıları](https://github.com/Yusiko99/Project-Turkish-#Veri-Yapıları)
+- [Metin](https://github.com/Yusiko99/Project-Turkish-#Metin)
+- [Ağ](https://github.com/Yusiko99/Project-Turkish-#Ağ)
+- [Sınıflar](https://github.com/Yusiko99/Project-Turkish-#Sınıflar)
+- [İş Parçacığı Oluşturma](https://github.com/Yusiko99/Project-Turkish-#Diş-açma)
+- [Web](https://github.com/Yusiko99/Project-Turkish-#Web)
+- [Dosyalar](https://github.com/Yusiko99/Project-Turkish-#Dosyalar)
+- [Veritabanları](https://github.com/Yusiko99/Project-Turkish-#Veritabanları)
+- [Grafik ve Multimedya](https://github.com/Yusiko99/Project-Turkish-#Grafik-ve-Multimedya)
+- [Güvenlik](https://github.com/Yusiko99/Project-Turkish-#Güvenlik)
 
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
-* [Rosetta Code](http://rosettacode.org/)
-
-## Table of Contents
-
-- [Numbers](https://github.com/karan/Projects#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
-
-Numbers
+Sayılar
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+** N Haneye Kadar PI Bul** - Bir sayı girin ve programın o kadar ondalık basamağa kadar PI oluşturmasını sağlayın. Programın ne kadar ileri gideceğine dair bir sınır tutun.
 
-**Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
+**N'inci Basamağa kadar e'yi bulun** - Önceki problemdeki gibi, ancak PI yerine e ile. Bir sayı girin ve programın o kadar ondalık basamağa kadar e oluşturmasını sağlayın. Programın ne kadar ileri gideceğine dair bir sınır tutun. 
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**Fibonacci Dizisi** - Bir sayı girin ve programın bu sayıya veya N'inci sayıya Fibonacci dizisini oluşturmasını sağlayın.
 
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**Asal Çarpanlara Ayırma** - Kullanıcının bir sayı girmesini ve (varsa) tüm Asal Faktörleri bulmasını ve görüntülemesini sağlayın.
 
-**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+**Sonraki Asal Sayı** - Kullanıcı bir sonrakini sormayı bırakana kadar programın asal sayıları bulmasını sağlayın.
 
-**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+**G x Y Zemini Kaplayacak Fayans Maliyetini Bulun** - Kullanıcı tarafından girilen bir maliyeti kullanarak genişlik ve yükseklikteki bir kat planını kaplamak için gereken toplam karo maliyetini hesaplayın.
 
-**Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
+**Mortgage Hesaplayıcı** - Belirli bir faiz oranında belirli N'inci dönem boyunca sabit vadeli bir ipoteğin aylık ödemelerini hesaplayın. Ayrıca, kullanıcının krediyi geri ödemesinin ne kadar süreceğini de öğrenin. Daha fazla karmaşıklık için, kullanıcıların birleştirme aralığını (Aylık, Haftalık, Günlük, Sürekli) seçmeleri için bir seçenek ekleyin.
 
-**Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+**İade Programı Değiştir** - Kullanıcı bir maliyet ve ardından verilen para miktarını girer. Program, değişikliği ve değişiklik için gereken çeyreklik, onluk, beşlik, kuruş sayısını hesaplayacaktır.
 
-**Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+**Binary to Decimal and Back Converter** - Ondalık sayıyı ikiliye veya ikili sayıyı ondalık eşdeğerine dönüştürmek için bir dönüştürücü geliştirin.
 
-**Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+**Hesap Makinesi** - Temel operatörleri yapmak için basit bir hesap makinesi. Daha fazla karmaşıklık için bilimsel bir hesap makinesi yapın.
 
-**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+**Birim Dönüştürücü (sıcaklık, para birimi, hacim, kütle ve daha fazlası)** - Çeşitli birimleri birbirleri arasında dönüştürür. Kullanıcı girilmekte olan birim tipini, dönüştürmek istediği birim tipini ve ardından değeri girer. Program daha sonra dönüştürmeyi yapacaktır.
 
-**Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
+**Çalar Saat** - X dakika/saniye sayısından sonra veya belirli bir zamanda ses çalan basit bir saat.
 
-**Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
+**İki Şehir Arasındaki Mesafe** - İki şehir arasındaki mesafeyi hesaplar ve kullanıcının bir mesafe birimi belirlemesine olanak tanır. Bu program, şehirler için enlem ve boylam gibi koordinatların bulunmasını gerektirebilir.
 
-**Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+**Kredi Kartı Doğrulayıcı** - Yaygın bir kredi kartı satıcısından (Visa, MasterCard, American Express, Discoverer) bir kredi kartı numarası alır ve bunun geçerli bir numara olduğundan emin olmak için doğrular (kredi kartlarının bir kredi kartını nasıl kullandığına bakın). sağlama toplamı).
 
-**Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+**Vergi Hesaplayıcı** - Kullanıcıdan bir maliyet ve ülke ya da eyalet vergisi girmesini ister. Daha sonra vergi artı vergiyle birlikte toplam maliyeti döndürür.
 
-**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+**Faktöriyel Bulucu** - Pozitif bir tam sayı olan n'nin Faktöriyeli, n, n-1, n-2, ...1 dizisinin çarpımı olarak tanımlanır ve sıfırın faktörü olan 0, şu şekilde tanımlanır: 1. Bunu hem döngüleri hem de özyinelemeyi kullanarak çözün.
 
-**Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
+**Karmaşık Sayı Cebiri** - Karmaşık sayıların toplama, çarpma, olumsuzlama ve tersini ayrı işlevlerde gösterin. (Çıkarma ve bölme işlemleri bu işlemlerin çiftleri ile yapılabilir.) Test edilen her işlem için sonuçları yazdırın.
 
-**Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
+**Mutlu Sayılar** - Aşağıdaki süreçle mutlu bir sayı tanımlanır. Herhangi bir pozitif tamsayı ile başlayarak, sayıyı basamaklarının karelerinin toplamı ile değiştirin ve sayı 1'e eşit olana (burada kalacağı) veya 1'i içermeyen bir döngüde sonsuz döngüye girene kadar işlemi tekrarlayın. Bu işlem 1 ile bitenler mutlu sayılar, 1 ile bitmeyenler ise mutsuz sayılardır. Çıktınızın bir örneğini burada görüntüleyin. İlk 8 mutlu sayıyı bulun.
 
-**Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
+**Numara Adları** - Bir sayıyı İngilizce olarak nasıl heceleyeceğinizi gösterin. Önceden var olan bir uygulamayı kullanabilir veya kendi uygulamanızı kullanabilirsiniz, ancak en az bir milyona kadar (veya daha azsa, dilinizin varsayılan sınırlı tamsayı türünün maksimum değeri) girdileri desteklemelisiniz. *İsteğe bağlı: Pozitif tam sayılar dışındaki girişler için destek (sıfır, negatif tam sayılar ve kayan noktalı sayılar gibi).*
 
-**Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+**Yazı Para Çevirme Simülasyonu** - Kullanıcının karar vermesine rağmen, tek bir madeni paranın atılmasını simüle eden bazı kodlar yazın. Kod, sonuçları kaydetmeli ve yazı ve tura sayısını saymalıdır.
 
-**Limit Calculator** - Ask the user to enter f(x) and the limit value, then return the value of the limit statement *Optional: Make the calculator capable of supporting infinite limits.*
+**Limit Hesaplayıcı** - Kullanıcıdan f(x) ve limit değerini girmesini isteyin, ardından limit ifadesinin değerini döndürün *İsteğe bağlı: Hesap makinesini sonsuz limitleri destekleyebilir hale getirin.*
 
-**Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
+**Hızlı Üs Alma** - Kullanıcıdan 2 tamsayı a ve b girmesini ve O(lg n) zaman karmaşıklığında a^b (yani pow(a,b)) çıktısını almasını isteyin.
 
-Classic Algorithms
+
+Klasik Algoritmalar
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**Collatz Sanısı** - *n > 1* sayısıyla başlayın. Aşağıdaki işlemi kullanarak bire ulaşmak için gereken adım sayısını bulun: *n* çift ise 2'ye bölün. *n* tek ise 3 ile çarpın ve 1 ekleyin.
 
-**Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
+**Sıralama** - İki tür sıralama algoritması uygulayın: Birleştirme sıralaması ve kabarcık sıralaması.
 
-**Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
+**En yakın çift problemi** - En yakın nokta çifti problemi veya en yakın çift problemi, hesaplamalı bir geometri problemidir: metrik uzayda verilen *n* noktalar, aralarındaki en küçük mesafeye sahip bir nokta çifti bulun.
 
-**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
+**Eratosthenes Eleği** - Eratosthenes eleği, tüm küçük asal sayıları (10 milyonun altında) bulmanın en etkili yollarından biridir.
 
 
-Graph
+Grafik
 --------
 
-**Graph from links** - Create a program that will create a graph or network from a series of links.
+**Bağlantılardan grafik** - Bir dizi bağlantıdan bir grafik veya ağ oluşturacak bir program oluşturun.
 
-**Eulerian Path** - Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible.  A Eulerian Path starts at one node and traverses every edge of a graph  through every node and finishes at another node.  A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
+**Euler Yolu** - Girdi olarak bir grafik alacak ve Euler yolu veya Euler döngüsü çıktısı alacak veya bunun mümkün olmadığını belirten bir program oluşturun. Bir Euler Yolu bir düğümde başlar ve bir grafiğin her kenarını her düğüm boyunca kat eder ve başka bir düğümde biter. Bir Euler döngüsü, aynı düğümde başlayan ve biten bir euler Yoludur.
 
-**Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
+**Connected Graph** - Grafiği girdi olarak alan ve her düğümün bağlı olup olmadığını gösteren bir program oluşturun.
 
-**Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+**Dijkstra Algoritması** - Kenarlarını kullanarak bir grafikteki en kısa yolu bulan bir program oluşturun.
 
-**Minimum Spanning Tree** - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a
-subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
+**Minimum Yayılma Ağacı** - Ağırlıklarla bağlantılı, yönsüz bir grafiği alan ve grafiğin minimum yayılan ağacını, yani bir
+bir ağaç olan alt çizge tüm köşeleri içerir ve ağırlıklarının toplamı mümkün olan en azdır.
 
 
-Data Structures
+Veri Yapıları
 ---------
 
-**Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
+**Ters dizin** - [Ters Dizin](http://en.wikipedia.org/wiki/Inverted_index), tam metin araması oluşturmak için kullanılan bir veri yapısıdır. Bir dizi metin dosyası verildiğinde, tersine çevrilmiş bir dizin oluşturmak için bir program uygulayın. Ayrıca, sorgu terimini / terimlerini içeren dosyaların bir listesini döndüren ters dizini kullanarak arama yapmak için bir kullanıcı arabirimi oluşturun. Arama dizini bellekte olabilir.
 
 
-Text
+Metin
 ---------
 
-**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+**Fizz Buzz** - 1'den 100'e kadar sayıları yazdıran bir program yazın. Ancak üçün katları için sayı yerine "Fizz" ve beşin katları için "Buzz" yazdırın. Hem üçün hem de beşin katı olan sayılar için “FizzBuzz” yazdırın.
 
-**Reverse a String** - Enter a string and the program will reverse it and print it out.
+**Bir Diziyi Ters Çevir** - Bir dizi girin, program onu ​​tersine çevirip yazdıracaktır.
 
-**Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+**Pig Latin** - Pig Latin, İngilizce dil oyununda oynanan bir değişiklik oyunudur. Bir İngilizce kelimenin Domuz Latince biçimini oluşturmak için, ilk ünsüz ses kelimenin sonuna aktarılır ve bir ay eklenir (Örn.: "muz", anana-bay'ı verir). Kurallar hakkında daha fazla bilgi için Wikipedia'yı okuyun.
 
-**Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+**Sesli Harfleri Say** - Bir dizi girin ve program metindeki sesli harflerin sayısını sayar. Daha fazla karmaşıklık için, bulunan her sesli harfin bir toplamını rapor etmesini sağlayın.
 
-**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+**Palindrome olup olmadığını kontrol edin** - Kullanıcı tarafından girilen dizenin bir palindrom olup olmadığını kontrol eder. Yani “yarış arabası” gibi ileri ve geri aynı şeyi okur
 
-**Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+**Bir Dizedeki Sözcükleri Say** - Bir dizedeki tek tek sözcüklerin sayısını sayar. Daha fazla karmaşıklık için bu dizeleri bir metin dosyasından okuyun ve bir özet oluşturun.
 
-**Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
+**Metin Düzenleyici** - Metin belgelerini açabilen, düzenleyebilen ve kaydedebilen not defteri tarzı uygulama. *İsteğe bağlı: Sözdizimi vurgulama ve diğer özellikleri ekleyin.*
 
-**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
+**RSS Feed Creator** - RSS/Atom Feed'e bir bağlantı verildiğinde, tüm gönderileri alın ve görüntüleyin.
 
-**Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
+**Kot Takibi (piyasa sembolleri vb.)** - Kullanıcı tarafından girilen semboller listesi için dışarı çıkıp hisse senetlerinin güncel değerini kontrol edebilen bir program. Kullanıcı, stokların ne sıklıkta kontrol edileceğini belirleyebilir. CLI için, hisse senedinin yukarı mı yoksa aşağı mı hareket ettiğini gösterin. *İsteğe bağlı: GUI ise, program hisse senedi değerinin hangi yöne hareket ettiğini göstermek için yeşil yukarı ve kırmızı aşağı okları gösterebilir.*
 
-**Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
+**Ziyaretçi Defteri / Dergi** - İnsanların yorum eklemesine veya günlük girdileri yazmasına olanak tanıyan basit bir uygulama. Tüm girişler için yorumlara izin verebilir veya veremez ve zaman damgaları verebilir. Ayrıca bir not kutusu haline getirilebilir. *İsteğe bağlı: Google App Engine veya Heroku ya da başka herhangi bir PaaS'ye dağıtın (elbette mümkünse).*
 
-**Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
+**Vigenere / Vernam / Ceasar Ciphers** - Veri mesajlarını şifreleme ve şifre çözme işlevleri. Sonra onları bir arkadaşına gönder.
 
-**Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
+**Normal İfade Sorgulama Aracı** - Kullanıcının bir metin dizesi girmesine ve ardından ayrı bir kontrolde bir normal ifade kalıbı girmesine izin veren bir araç. Normal ifadeyi kaynak metne karşı çalıştıracak ve normal ifadedeki tüm eşleşmeleri veya bayrak hatalarını döndürecektir.
 
-
-Networking
+Ağ
 ---------
 
-**FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
+**FTP Programı** - Uzak bir web sunucusundan dosyaları ileri geri aktarabilen bir dosya aktarım programı.
 
-**Bandwidth Monitor** - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
+**Bant Genişliği Monitörü** - Geçerli çevrimiçi oturumunuz sırasında netten ne kadar veri yüklediğinizi ve indirdiğinizi izleyen küçük bir yardımcı program. Günün hangi dönemlerinde daha fazla ve daha az kullandığınızı öğrenip bulamayacağınıza bakın ve bunu gösteren bir rapor veya grafik oluşturun.
 
-**Port Scanner** - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
+**Bağlantı Noktası Tarayıcı** - Programın, verilen bilgisayardaki açık bağlantı noktalarını her birine bağlanarak bulmaya çalışacağı bir IP adresi ve bağlantı noktası aralığı girin. Herhangi bir başarılı bağlantıda, bağlantı noktasını açık olarak işaretleyin.
 
-**Mail Checker (POP3 / IMAP)** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email at a given interval.
+**Posta Denetleyicisi (POP3 / IMAP)** - Kullanıcı, web sunucusu ve IP, protokol türü (POP3 veya IMAP) gibi çeşitli hesap bilgilerini girer ve uygulama belirli bir aralıkta e-postayı kontrol eder.
 
-**Country from IP Lookup** - Enter an IP address and find the country that IP is registered in. *Optional: Find the Ip automatically.*
+**IP Arama Ülkesi** - Bir IP adresi girin ve IP'nin kayıtlı olduğu ülkeyi bulun. *İsteğe bağlı: IP'yi otomatik olarak bulun.*
 
-**Whois Search Tool** - Enter an IP or host address and have it look it up through whois and return the results to you.
+**Whois Arama Aracı** - Bir IP veya ana bilgisayar adresi girin ve bunun whois aracılığıyla aramasını ve sonuçları size döndürmesini sağlayın.
 
-**Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
+**Zaman Programlamalı Site Denetleyicisi** - Her birkaç dakikada bir veya belirli bir zamanda bir web sitesine veya sunucuya bağlanmaya çalışan ve çalışıp çalışmadığını kontrol eden bir uygulama. Kapalıysa, e-posta ile veya ekranda bir bildirim yayınlayarak sizi bilgilendirir.
 
 
-Classes
+Sınıflar
 ---------
 
-**Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
+**Ürün Envanteri Projesi** - Ürün envanterini yöneten bir uygulama oluşturun. Eldeki fiyatı, kimliği ve miktarı olan bir ürün sınıfı oluşturun. Ardından, çeşitli ürünleri takip eden ve envanter değerini özetleyebilen bir *envanter* sınıfı oluşturun.
 
-**Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
+**Havayolu / Otel Rezervasyon Sistemi** - Uçak koltuklarını veya otel odalarını rezerve eden bir rezervasyon sistemi oluşturun. Uçağın veya otelin belirli bölümleri için çeşitli ücretler alır. Örneğin, birinci sınıf otobüsten daha pahalıya mal olacak. Otel odalarında daha pahalı olan çatı katı süitleri vardır. Odaların ne zaman müsait olacağını ve planlanabileceğini takip edin.
 
-**Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
-After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
+**Şirket Yöneticisi** - Bir sınıf hiyerarşisi oluşturun - Soyut sınıf Çalışan ve alt sınıflar Saatlik Çalışan, Maaşlı Çalışan, Yönetici ve Yönetici. Herkesin maaşı farklı hesaplanıyor, biraz araştırın.
+Bir çalışan hiyerarşisi oluşturduktan sonra, çalışanları yönetmenize olanak tanıyan bir Şirket sınıfı oluşturun. Çalışanları işe alabilmeli, işten çıkarabilmeli ve yetiştirebilmelisiniz.
 
-**Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
+**Banka Hesabı Yöneticisi** - CheckingAccount, SavingsAccount ve BusinessAccount adlı diğer üç sınıf için soyut bir sınıf olacak olan Account adlı bir sınıf oluşturun. ATM tarzı bir program aracılığıyla bu hesaplardaki kredileri ve borçları yönetin.
 
-**Patient / Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
+**Hasta / Doktor Zamanlayıcı** - Bir hasta sınıfı ve bir doktor sınıfı oluşturun. Birden fazla hastayla ilgilenebilecek bir doktora sahip olun ve bir doktorun 8 saatlik bir iş günü boyunca yalnızca 16 hastayla ilgilenebileceği bir planlama programı kurun.
 
-**Recipe Creator and Manager** - Create a recipe class with ingredients and a put them in a recipe manager program that organizes them into categories like deserts, main courses or by ingredients like chicken, beef, soups, pies etc.
+**Tarif Oluşturucu ve Yöneticisi** - Malzemelerle bir tarif sınıfı oluşturun ve bunları tatlılar, ana yemekler veya tavuk, sığır eti, çorbalar, turtalar vb. malzemelere göre düzenleyen bir tarif yöneticisi programına koyun.
 
-**Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
+**Galeri** - Bir görüntü soyut sınıfı ve ardından her görüntü türü için ondan miras alan bir sınıf oluşturun. Bunları, görüntülemek için galeri stili biçiminde görüntüleyen bir programa koyun.
 
-**Shape Area and Perimeter Classes** - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
+**Şekil Alanı ve Çevre Sınıfları** - Shape adlı soyut bir sınıf oluşturun ve ardından baklava, dikdörtgen, daire, üçgen vb. diğer şekilleri ondan devralın.
 
-**Flower Shop Ordering To Go** - Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
+**Çiçekçi Sipariş Verme** - Çiçek nesneleri ile ilgilenen bir çiçekçi uygulaması oluşturun ve bu çiçek nesnelerini daha sonra satılabilecek bir buket nesnesinde kullanın. Nesne sayısını ve ne zaman daha fazla sipariş vermeniz gerekebileceğini takip edin.
 
-**Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
+**Aile Ağacı Oluşturucu** - Kişi adında, ne zaman doğdukları ve ne zaman (ve eğer öldüyse) öldükleri bir adı olacak bir sınıf oluşturun. Kullanıcının bu Kişi sınıflarını oluşturmasına ve bunları bir aile ağacı yapısına koymasına izin verin. Ağacı ekrana yazdırın.
 
 
-Threading
+Diş açma
 ---------
 
-**Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
+**İndirmeler için Bir İlerleme Çubuğu Oluşturun** - Sürmekte olan bir indirmeyi takip edebilen uygulamalar için bir ilerleme çubuğu oluşturun. İlerleme çubuğu ayrı bir iş parçacığında olacak ve delegeleri kullanarak ana iş parçacığıyla iletişim kuracak.
 
-**Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
-
+**Toplu Küçük Resim Oluşturucu** - Bazı dönüştürmeler için resim işleme biraz zaman alabilir. Özellikle görüntü büyükse. Yüzlerce görüntü alabilen ve siz başka şeyler yaparken bunları arka plan iş parçacığında belirli bir boyuta dönüştüren bir görüntü programı oluşturun. Daha fazla karmaşıklık için, bir iş parçacığının yeniden boyutlandırılmasını sağlayın, küçük resimleri toplu olarak yeniden adlandırın vb.
 
 Web
 ---------
 
-**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
+**Sayfa Kazıyıcı** - Bir siteye bağlanan ve tüm bağlantıları veya resimleri çıkaran ve bunları bir listeye kaydeden bir uygulama oluşturun. *İsteğe bağlı: Dizine alınan içeriği düzenleyin ve yinelemelere izin vermeyin. Sonuçları kolayca aranabilir bir dizin dosyasına koymasını sağlayın.*
 
-**Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
+**Çevrimiçi Beyaz Tahta** - Resimler çizmenize, notlar yazmanıza ve projeler için fikirleri detaylandırmak için çeşitli renkler kullanmanıza izin veren bir uygulama oluşturun. *İsteğe bağlı: Arkadaşlarınızı çevrimiçi bir beyaz tahta üzerinde işbirliği yapmaya davet etme özelliği ekleyin.*
 
-**Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
+**İnternet Saatinden Atom Saatini Alın** - Bu program, İnternet'teki bir atom saatinden gerçek atom saatini alacaktır. Basit bir Google aramasıyla döndürülen atomik saatlerden herhangi birini kullanın.
 
-**Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
+**Güncel Hava Durumunu Al** - Belirli bir posta/posta kodu için geçerli hava durumunu alın. *İsteğe bağlı: Kullanıcıyı otomatik olarak bulmayı deneyin.*
 
-**Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
+**Planlı Otomatik Oturum Açma ve Eylem** - Belirli bir sitede belirli bir programa göre oturum açan ve belirli bir eylemi başlatan ve ardından oturumu kapatan bir uygulama yapın. Bu, web postasını kontrol etmek, düzenli içerik göndermek veya diğer uygulamalar için bilgi almak ve bilgisayarınıza kaydetmek için yararlı olabilir.
 
-**E-Card Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
+**E-Kart Oluşturucu** - İnsanların kendi küçük e-kartlarını oluşturmalarına ve bunları diğer insanlara göndermelerine olanak tanıyan bir site yapın. Flaş kullanmayın. Bir resim kitaplığı ve belki de anlayışlı sloganlar veya alıntılar kullanın.
 
-**Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small. *Optional: Allow for the addition of modules/addons.*
+**İçerik Yönetim Sistemi** - Joomla, Drupal, PHP Nuke vb. gibi bir içerik yönetim sistemi (CMS) oluşturun. Küçük başlayın. *İsteğe bağlı: Modüllerin/eklentilerin eklenmesine izin verin.*
 
-**Web Board (Forum)** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
+**Web Panosu (Forum)** - Düşüncelerinizi ve fikirlerinizi yayınlamak, yönetmek ve paylaşmak için siz ve arkadaşlarınız için bir forum oluşturun.
 
-**CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
+**CAPTCHA Oluşturucu** - Bir hizmete kaydolduğunuzda ve ardından gördüklerinizi girmenizi istediğinde, harfleri ve sayıları olan bu resimleri hiç gördünüz mü? Web botlarının otomatik olarak kaydolmasını ve spam göndermesini engeller. Çevrimiçi formlar için kendiniz bir tane oluşturmayı deneyin.
 
-
-Files
+Dosyalar
 ---------
 
-**Quiz Maker** - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
+**Quiz Maker** - Bir dosyadan çeşitli soruları alan, rastgele seçilen ve öğrenciler için bir sınav oluşturan bir uygulama yapın. Her sınav farklı olabilir ve ardından sınavları derecelendirmek için bir anahtar okur.
 
-**Sort Excel/CSV File Utility** - Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.
+**Excel/CSV Dosyasını Sırala Yardımcı Programı** - Bir kayıt dosyasını okur, sıralar ve sonra bunları dosyaya geri yazar. Kullanıcının çeşitli sıralama stilini seçmesine ve belirli bir alana göre sıralama yapmasına izin verin.
 
-**Create Zip File Maker** - The user enters various files from different directories and the program zips them up into a zip file. *Optional: Apply actual compression to the files. Start with Huffman Algorithm.*
+**Zip Dosyası Oluşturucu Oluştur** - Kullanıcı farklı dizinlerden çeşitli dosyalar girer ve program bunları bir zip dosyasına sıkıştırır. *İsteğe bağlı: Dosyalara gerçek sıkıştırmayı uygulayın. Huffman Algoritması ile başlayın.*
 
-**PDF Generator** - An application which can read in a text file, html file or some other file and generates a PDF file out of it. Great for a web based service where the user uploads the file and the program returns a PDF of the file. *Optional: Deploy on GAE or Heroku if possible.*
+**PDF Oluşturucu** - Bir metin dosyasını, html dosyasını veya başka bir dosyayı okuyabilen ve bunlardan bir PDF dosyası oluşturan bir uygulama. Kullanıcının dosyayı yüklediği ve programın dosyanın PDF'sini döndürdüğü web tabanlı bir hizmet için idealdir. *İsteğe bağlı: Mümkünse GAE veya Heroku üzerinde dağıtın.*
 
-**Mp3 Tagger** - Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.
+**Mp3 Tagger** - ID3v1 etiketlerini değiştirin ve MP3 dosyalarına ekleyin. Albüm resmini MP3 dosyasının başlığına ve diğer ID3v2 etiketlerine ekleyip ekleyemeyeceğinize bakın.
 
-**Code Snippet Manager** - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. *Optional: For extra practice try adding syntax highlighting based on the language.*
+**Code Snippet Manager** - Kodlayıcıların işlevleri, sınıfları veya diğer bilgileri daha sonra kullanmak üzere kaydetmesine olanak tanıyan başka bir yardımcı program. Snippet türüne veya dile göre düzenlenen kodlayıcı, kodu hızla arayabilir. *İsteğe bağlı: Daha fazla pratik yapmak için dile göre sözdizimi vurgulamayı deneyin.*
 
-
-Databases
+Veritabanları
 ---------
 
-**SQL Query Analyzer** - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
+**SQL Query Analyzer** - Kullanıcının bir sorgu girip yerel bir veritabanında çalıştırmasını ve daha verimli hale getirmenin yollarını aramasını sağlayan bir yardımcı uygulama.
 
-**Remote SQL Tool** - A utility that can execute queries on remote servers from your local computer across the Internet. It should take in a remote host, user name and password, run the query and return the results.
+**Uzak SQL Aracı** - İnternet üzerinden yerel bilgisayarınızdan uzak sunucularda sorgu yürütebilen bir yardımcı program. Uzak bir ana bilgisayarı, kullanıcı adını ve parolayı almalı, sorguyu çalıştırmalı ve sonuçları döndürmelidir.
 
-**Report Generator** - Create a utility that generates a report based on some tables in a database. Generates a sales reports based on the order/order details tables or sums up the days current database activity.
+**Rapor Oluşturucu** - Bir veritabanındaki bazı tablolara dayalı bir rapor oluşturan bir yardımcı program oluşturun. Sipariş/sipariş ayrıntıları tablolarına dayalı olarak bir satış raporu oluşturur veya günün mevcut veritabanı etkinliğini özetler.
 
-**Event Scheduler and Calendar** - Make an application which allows the user to enter a date and time of an event, event notes and then schedule those events on a calendar. The user can then browse the calendar or search the calendar for specific events. *Optional: Allow the application to create re-occurrence events that reoccur every day, week, month, year etc.*
+**Etkinlik Planlayıcı ve Takvim** - Kullanıcının bir etkinliğin tarih ve saatini, etkinlik notlarını girmesine ve ardından bu etkinlikleri bir takvimde planlamasına olanak tanıyan bir uygulama yapın. Kullanıcı daha sonra takvime göz atabilir veya belirli etkinlikler için takvimde arama yapabilir. *İsteğe bağlı: Uygulamanın her gün, hafta, ay, yıl vb. tekrarlanan tekrarlanan olaylar oluşturmasına izin verin.*
 
-**Budget Tracker** - Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they are saving or losing over a period of time. *Optional: Allow the user to specify a date range and see the net flow of money in and out of the house budget for that time period.*
+**Bütçe İzleyici** - Bir hanenin bütçesini takip eden bir uygulama yazın. Kullanıcı, belirli bir süre içinde ne kadar tasarruf ettiklerini veya kaybettiklerini öğrenmek için harcamaları, geliri ve yinelenen maliyetleri ekleyebilir. *İsteğe bağlı: Kullanıcının bir tarih aralığı belirlemesine ve o dönem için kurum bütçesine giren ve çıkan net para akışını görmesine izin verin.*
 
-**TV Show Tracker** - Got a favorite show you don’t want to miss? Don’t have a PVR or want to be able to find the show to then PVR it later? Make an application which can search various online TV Guide sites, locate the shows/times/channels and add them to a database application. The database/website then can send you email reminders that a show is about to start and which channel it will be on.
+**TV Şovu İzleyici** - Kaçırmak istemediğiniz favori bir şovunuz mu var? Bir PVR'niz yok mu veya programı daha sonra PVR yapmak için bulabilmek mi istiyorsunuz? Çeşitli çevrimiçi TV Rehberi sitelerinde arama yapabilen, programları/zamanları/kanalları bulabilen ve bunları bir veritabanı uygulamasına ekleyebilen bir uygulama yapın. Veritabanı/web sitesi daha sonra size bir şovun başlamak üzere olduğu ve hangi kanalda olacağına dair e-posta hatırlatıcıları gönderebilir.
 
-**Travel Planner System** - Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
+**Seyahat Planlayıcı Sistemi** - Kullanıcıların kendi küçük seyahat programlarını bir araya getirmelerine ve havayolu / otel düzenlemelerini, ilgi çekici yerleri, bütçeyi ve programı takip etmelerine olanak tanıyan bir sistem oluşturun.
 
 
-Graphics and Multimedia
+Grafik ve Multimedya
 ---------
 
-**Slide Show** - Make an application that shows various pictures in a slide show format. *Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.*
+**Slayt Gösterisi** - Çeşitli resimleri slayt gösterisi formatında gösteren bir uygulama yapın. *İsteğe bağlı: Fade in/out, yıldız silme ve panjur geçişleri gibi çeşitli efektler eklemeyi deneyin.*
 
-**Stream Video from Online** - Try to create your own online streaming video player.
+**Çevrimiçi Video Akışı** - Kendi çevrimiçi akış video oynatıcınızı oluşturmaya çalışın.
 
-**Mp3 Player** - A simple program for playing your favorite music files. Add features you think are missing from your favorite music player.
+**Mp3 Player** - En sevdiğiniz müzik dosyalarını çalmak için basit bir program. Favori müzik çalarınızda eksik olduğunu düşündüğünüz özellikleri ekleyin.
 
-**Watermarking Application** - Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture. *Optional: Use threading to process multiple images simultaneously.*
+**Filigran Uygulaması** - Telif hakkının korunmasını istediğiniz bazı resimleriniz mi var? Hiç kimsenin grafiklerinizi sitenizden çalmaması için arka plana hafifçe kendi logonuzu veya metninizi ekleyin. Bu filigranı resme ekleyecek bir program yapın. *İsteğe bağlı: Birden çok görüntüyü aynı anda işlemek için iş parçacığı kullanın.*
 
-**Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. Do a search online for "Turtle Graphics" for more information. *Optional: Allow the program to read in the list of commands from a file.*
+**Kaplumbağa Grafikleri** - Bu, 20 x 20 karelik bir zemin oluşturduğunuz yaygın bir projedir. Çeşitli komutlar kullanarak bir kaplumbağaya yere bir çizgi çizmesini söylersiniz. İleriye, sağa veya sola hareket ettirin, kalemi kaldırın veya bırakın vb. Daha fazla bilgi için "Turtle Graphics" için çevrimiçi arama yapın. *İsteğe bağlı: Programın bir dosyadaki komut listesini okumasına izin verin.*
 
-**GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
+**GIF Oluşturucu** Birden çok görüntüyü (PNG'ler, JPG'ler, TIFF'ler) dışa aktarılabilen pürüzsüz bir GIF oluşturmak için bir araya getiren bir program. *İsteğe bağlı: Programın küçük video dosyalarını da GIF'lere dönüştürmesini sağlayın.*
 
-
-Security
+Güvenlik
 -------------
 
-**Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
+**Sezar şifresi** - Hem kodlama hem de kod çözme için bir Sezar şifresi uygulayın. Anahtar, 1'den 25'e kadar bir tamsayıdır. Bu şifre, alfabenin harflerini (A'dan Z'ye) döndürür. Kodlama, her harfi alfabedeki sonraki 1'den 25'e kadar olan harfle değiştirir (Z'den A'ya kaydırarak). Böylece 2. anahtar "HI"yi "JK"ye şifreler, fakat 20. anahtar "HI"yi "BC"ye şifreler. Bu basit "tek alfabetik ikame şifresi" neredeyse hiç güvenlik sağlamaz çünkü şifrelenmiş mesaja sahip olan bir saldırgan, anahtarı tahmin etmek için frekans analizini kullanabilir veya 25 anahtarın tümünü deneyebilir.
