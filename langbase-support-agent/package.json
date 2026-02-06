@@ -1,0 +1,26 @@
+{
+  "name": "langbase-support-agent",
+  "version": "1.0.0",
+  "description": "A context-aware customer support agent built with Langbase - Bottom-up learning approach",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/main.ts",
+    "memory:create": "tsx src/1-memory-creation.ts",
+    "retrieval:test": "tsx src/2-retrieval-test.ts",
+    "pipe:create": "tsx src/3-pipe-creation.ts",
+    "start": "npm run build && node dist/main.js"
+  },
+  "keywords": ["langbase", "ai", "rag", "customer-support", "chatbot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "langbase": "^1.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
