@@ -20,7 +20,7 @@ This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
 
 Problems are motivated by the ones shared at:
 
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
+* [Martyr2’s Mega Project List](https://gist.github.com/zarebski-m/8437129)
 * [Rosetta Code](http://rosettacode.org/)
 
 ## Table of Contents
@@ -234,6 +234,8 @@ Files
 **Mp3 Tagger** - Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.
 
 **Code Snippet Manager** - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. *Optional: For extra practice try adding syntax highlighting based on the language.*
+
+**File Duplicate Remover** - Create a program that scans a folder, identifies duplicate files using file hashes or content comparison, and allows users to remove or manage duplicate copies. Optional: Support recursive scanning of subdirectories and duplicate detection based on creation or modification dates.
 
 
 Databases
